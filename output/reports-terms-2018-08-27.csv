@@ -1,0 +1,304 @@
+metric,% Chats Initiated,Chats,Chat events,Chat conversion events
+metric,% Trials,Trials,Trial events,Trial conversion events
+metric,% Scheduled,Scheduler,Scheduler events,Scheduler conversion events
+metric,% Mobile Video Starts
+metric,% Mobile Visits
+metric,% of High Quality Responses Sent to XXR
+metric,% of Responses Acted On by Flowchart
+metric,% of Visits with Chat Installed
+metric,% Owned/Earned Completion Rate
+metric,% Owned/Earned Engagement Rate
+metric,% Owned/Earned Video Starts
+metric,% Owned/Earned Visit
+metric,% Paid Starts
+metric,% Paid Visits
+metric,% Valid Registrations
+metric,<20 Seconds Wait Time
+report,A/B Testing (Optimizely)
+dimension,Acquisition Name
+metric,Action Taken by Flowchart
+metric,Actionable %
+metric,Actionable Leads
+dimension,Asset,ov code,asset code,asset name,Asset Version Code/Name,content
+dimension,Page URL
+dimension,Asset Page URL,Delivery URL
+dimension,Asset Type,Content type
+dimension,Asset Type Group
+report,Audience Quality,audience insights,audience,segmentation,segment
+metric,Availability Rate
+metric,Available + Not Available
+metric,Available Visits,chat available visits
+metric,Average Time Watched,video time
+metric,Avg Influence Win,Avg Win Size,Avg infl win
+metric,Avg Source VL,Avg VL Size
+metric,Avg Source Win
+metric,Bounce Rate
+report,Brand Health Monitor,brand health,md&i,health monitor
+dimension,GBT 10,Brand Level 1,Global Brand Taxonomy 10,Business Unit
+dimension,GBT 15,Brand Level 2,Brand Level 3
+dimension,GBT 17,Brand Level 4
+dimension,GBT 20,Brand Level 5
+dimension,GBT 30,Brand Level 6,Product Category Code
+report,BrightEdge
+dimension,Business Partner,BP
+dimension,Business Unit Outcome
+dimension,Buyer Stage,Buying Cycle
+dimension,Buying Cycle,Buyer Stage
+dimension,Campaign Status
+metric,Campaign Visits,vcpi campaign tagging,web visits by campaign,campiagn visits
+dimension,Cell,Cell Name,Cell Code
+metric,Chat
+metric,Chat Installed Ever
+metric,Chat Installed Visits
+metric,Chat Not Installed Visits
+dimension,Chat Result
+metric,Chats,Live Chats,Interactive Chats,chat volume,chat sessions
+metric,Click,clicks,media click,media clicks,email click,email clicks,site click,web page click
+metric,Click Through Rate,CTR,Click thru rate
+metric,Email Click Through Rate,Email CTR,Email click thru rate
+metric,Click to Open Rate
+metric,Click to Visit Rate
+dimension,Client Geography,location,landing geo,landing geography
+dimension,Client Tier
+dimension,Client Type
+dimension,Close Category
+dimension,Close Year/Quarter,forecast date,decision date,forecast / decision date
+metric,Closed %,closed percentage
+dimension,Company Client Status,client status
+metric,Completion Rate,Video Completion Rate,Video Completion
+report,Content Analytics
+dimension,Content Format,asset format
+dimension,Content Type,asset type
+metric,Cost,total cost,net event cost,cash spend
+metric,Cost per Campaign Visit,cost per visit
+metric,Cost per Engaged Visit,media cost / engaged visits,media cost divided by visit,cost per visit
+metric,Cost per High Quality Response,cost / quality responses,cost divided by responses,cost per response,cost per HQ response
+metric,Cost per Influence Win,Total Cost / Influence Wins,cost/influence,cost divided by influence wins,cost per influence win
+metric,Cost per Registration
+metric,Cost per Response
+metric,Cost per RLM Workload,cost / rlm workload,cost divided by rlm workload
+metric,Cost per Source Validated Lead,cost / validated lead,cost divided by source lead,cost per lead,cost for lead,cost per VL
+metric,Cost per Total Influence Win,Cost per Influence win,cost per win,cost per wins
+dimension,Country,visitor country
+dimension,Geo Level 3,Country Group,Geography level 3
+metric,Cov %,coverage percent,coverage %
+dimension,Creation Quarter,Create quarter
+dimension,Creation Week,Create week
+dimension,Customer Name
+metric,Delivery Rate
+dimension,Demoters
+dimension,Device Type,Mobile vs Desktop
+dimension,Digital Offerings,top digital offerings,priority offerings
+dimension,Direct load,No referrers,Direct Traffic
+report,Discovery & Engagement,d&e,d and e,discovery,Diagnostic Discovery & Engagement
+dimension,Document Name
+metric,DQ Registrations
+report,E2E Funnel,end to end,end to end funnel,funnel,e2e,E2E funnel,e to e,etoe,end-to-end,end-to-end funnel
+report,Email,email,CRM,Diagnostic Email
+metric,Email Click
+metric,Email Click Response Rate
+metric,Email Only, No Action (Need Investigation)
+metric,Email Open
+metric,Email Opt Out
+metric,Email Response Count
+metric,Email Sends,email sent
+metric,Emails Delivered
+metric,Engaged Visits,engagement,engaged visit,page engagement
+metric,Engagement Rate,engagement %,Eng Rate,ER,Engaged Visit Rate,adjusted bounce rate,percentage of engaged visits,engagement percentage,percent engagement,engagement rate %
+metric,Entry %
+dimension,Event Brief
+dimension,Event Category,Event Type
+dimension,Event Date Range
+report,Event Detail
+report,Event End to End
+dimension,Event ID
+dimension,Event Objective,Event Type
+dimension,Event Performance
+report,Event Revenue
+report,Event ROI
+dimension,Executed Event
+metric,Expense vs. VLRC,E:VLRC
+metric,Expense vs. Win Revenue,E:WR
+dimension,Flowchart Response Score
+dimension,Forecast / Decision Quarter,Projected Quarter Close
+dimension,Forecast / Decision Year
+report,Forecast Quarter Contribution,CQ Contribution,NQ Contribution,NQ+1 Contribution,Validated Pipeline
+dimension,Funding Geo,Funding Geography
+metric,Gap
+dimension,Geo Parent
+dimension,Geography,Geo,IOT,Geo level 1
+dimension,GTS Client Value Plays
+metric,Hard Bounce
+report,Heatmaps & Visitor Tracking (Hotjar)
+metric,High Quality Addressable Responses,HQ addressable responses,HQ addressable
+metric,High Quality Response Rate,HQ Response Rate,% High Quality,% HQ Responses
+metric,High Quality Responses,HQ Responses
+metric,High Value Chat Pts. vs Target,High Value Chat Points vs Target
+metric,High Value Chat Rate
+metric,High Value Chat Rate Target
+metric,High Value Chats,HV Chat
+report,IBM Digital Analytics
+metric,IBMer Registrations
+metric,Impressions
+metric,Indicator
+dimension,Individual Newness
+dimension,Industry
+dimension,Initiative
+metric,Job Role,role,job
+dimension,Lead Age
+dimension,Lead Score to XXR
+dimension,Lead Status
+dimension,Lead Status Detail
+dimension,Lead Update Age
+metric,Life of
+report,Live Chat Metrics
+report,Lotame,lowtami,lowtamay,loetami,audience monitoring,loetame,lotamie,lotami,lotmae
+metric,Low Quality Addressable Responses,LQ addressable responses,LQ addressable
+dimension,Mailing Name,mailing
+dimension,Market,markets,IMT,Geo level 2
+dimension,Market Parent
+metric,Marketer Workspace (MWS) Tagging Completion Rate
+dimension,Marketing Channel Type,Marketing Channel Type,Marketing Channel,Channel,Marketing Channel Type Detail
+dimension,Marketing Channel Type Category
+dimension,Marketing Comm Channel Name,Marketing Channel Name
+dimension,Marketing Comm Channel Type
+metric,Marketing Create
+metric,Marketing Progress,Progress
+report,Marketing Progress Report
+report,Marketing Quarterly Targets
+metric,Marketing Source
+metric,Marketing Source Rate % (RLM Only)
+report,Marketing Source Report
+metric,Marketing Source Validated Lead Revenue,Source VLR,Source VLRC,Marketing Source VLRC,Source Validated Leads Revenue Created
+metric,Marketing Source Validated Leads,Marketing Source VL,Source Validated Leads,Source VLC,Marketing Source VLC,Marketing Source Validated Leads Created,
+metric,Marketing Source Validated Leads (RLM),Source validated leads (RLM)
+metric,Marketing Source Win Revenue,Source Win Revenue,Source WR,Source Win Rev,Marketing Source WR,Marketing Source Win Rev
+metric,Marketing Source Wins,Source Wins,Total Win Influence
+report,Win Influence Quarterly Targets
+report,Win Influence Targets
+report,Source Quarterly Targets
+report,Source Targets
+metric,Marketing Win Influence,Total Win Influence,Mktg Win Influence
+report,Marketing Win Influence Report
+metric,Marketing Win Influence Revenue,Mktg Win Influence Revenue,Influence WR
+metric,Media Cost,cash spend
+metric,Media Responses
+report,Media Top Sheet,media,banners,groupm,social ads
+metric,Medium (Top New Contact),medium
+metric,Mobile Completion Rate
+metric,Mobile Engagement Rate
+metric,Multiplier,Cov X
+report,Net Promoter Score (Medallia),promoter score,medalia,NPS
+metric,No Action Responses,No action response
+metric,No Action Responses
+dimension,No Show
+metric,Non-Addressable Responses
+metric,Not Available Visits,Unavailable visits,unavailable for chat
+dimension,Not in MWS
+metric,NPS,net promoter score
+metric,Objective (Total Business)
+dimension,Offer,offer name,offer code
+metric,Open Rate
+dimension,Opportunity Number,Opportunity Key,Sales Opportunity Key
+dimension,Opportunity Owner Org (OO),OO,Owning Org
+dimension,Opportunity Source L1
+dimension,Opportunity Source L2,Opportunity Identifier,OI
+metric,Opt Out Rate
+dimension,Origin
+dimension,Originating Marketing Team,ibm marketing team,OMT,Originating Mktg Team,Marketing Team Geography
+metric,Other Web Registrations,Other Registrations
+dimension,Owning Event Geo
+metric,Page Engaged Visits
+report,Page Insights
+metric,Page Views,views
+metric,Page Visits
+metric,Paid Completion Rate
+metric,Paid Engagement Rate
+metric,Paid Media Engaged Visits,Paid Engaged visits,Campaign Engaged visits
+report,Paid Media Report
+metric,Paid Visit,Media visit,Paid Sessions
+metric,PERFORM,PPL
+dimension,Pipeline Age
+dimension,Placement Geo,Placement geography
+dimension,Plan,strategic organization structure,Framework Plan
+dimension,Plan Element
+dimension,Plan Framework,Campaign Hierarchy,Plan Framework Hierarchy,Campiagn Hierarchy
+dimension,Platform
+metric,PPL Contribution
+dimension,Program
+dimension,Project,Distinct Project,marketing operations project,mo project
+dimension,Project start date
+dimension,Project status
+metric,Qualified+,Qualified+ pipeline
+metric,Qualified+ Contribution 
+metric,Registered
+metric,Registration Rate
+metric,Registrations
+dimension,Rep Focus
+dimension,Rep IOT
+dimension,Rep Role
+dimension,Response Date
+report,Response Management
+metric,Response Rate
+dimension,Response Score,Transaction response score,Transactional response score
+metric,Responses,Total Responses
+dimension,Revenue Type,FV,TSV,ACV
+report,RLM Create Funnel
+metric,RLM Rate,RLM Rate %
+metric,RLM Workload,Leads
+report,RLM Workload
+dimension,Sales Channel
+dimension,Sales Channel Group
+metric,Sales Chat Pts. vs Target
+metric,Sales Chat Rate
+metric,Sales Chat Rate Target
+metric,Sales Chats
+dimension,Sales Opportunity Detail Key,Opportunity detail record
+dimension,Sales Stage
+metric,Scheduler
+metric,Send Failure
+metric,Proprietary Show Rate,Show Rate
+dimension,Skillset
+metric,Soft Bounce
+metric,Source Rate % (RLM),source rate percentage,source rate %
+metric,Source Win Conversion (RLM),workload % that results in Source Validated Leads,Win Conversion (RLM only)
+metric,Source Wins (RLM)
+dimension,Sponsor Business Unit (BU)
+metric,Starts per Video
+metric,Surveys Completed
+dimension,Tagged Asset
+dimension,Top Project,top filter,Root Project
+report,Top Sheet,Top Sheet,marketing top sheet 2.0,Marketing Top Sheet
+metric,Total Addressable Responses,addressable responses
+dimension,Traffic Source
+dimension,Transaction Size
+metric,Trials,Trial conversion events
+dimension,Un-Tagged Asset,untagged asset
+metric,Unique Responders,Unique Responses
+metric,Validated Leads Created,VLC
+metric,Validated Leads Revenue Created,VLRC
+metric,Validated Pipeline,Val Pipe,VP
+metric,Validated+
+metric,Validated+ Contribution
+dimension,Venue Geo,Venue geography
+metric,Video Complete
+metric,Video Completion Rate
+metric,Video Count
+metric,Video Length
+metric,Video Starts
+metric,Visit Rate,% of ad that result in visit,paid media/impressions,impressions by ad
+metric,Visit Rate,Impression to visit,impression to visit rate
+metric,Visit/Asset,visit per asset
+dimension,Visitor IMT
+dimension,Visitor IOT
+report,Web Metrics
+report,Web Page KPIs
+report,Webcast E2E Detail
+metric,Win Revenue,WR
+metric,Wins
+dimension,Workload Type Category
+metric,WTW,week to week,week over week
+metric,WtW %,week to week %,week to week percent
+report,YTD Source Contribution,year to date source contribution
+report,YTD Win Influence Contribution,year to date win influence contribution
+metric,YTY,Year to Year,year over year
