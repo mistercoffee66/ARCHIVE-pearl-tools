@@ -20,7 +20,7 @@ metric,Action Taken by Flowchart
 metric,Actionable %
 metric,Actionable Leads
 dimension,Asset,ov code,asset code,asset name,Asset Version Code/Name,content
-dimension,Page URL
+metric,Page URL
 dimension,Asset Page URL,Delivery URL
 dimension,Asset Type,Content type
 dimension,Asset Type Group
@@ -165,7 +165,6 @@ dimension,Marketing Comm Channel Type
 metric,Marketing Create
 metric,Marketing Progress,Progress
 report,Marketing Progress Report
-report,Marketing Quarterly Targets
 metric,Marketing Source
 metric,Marketing Source Rate % (RLM Only)
 report,Marketing Source Report
@@ -183,14 +182,12 @@ report,Marketing Win Influence Report
 metric,Marketing Win Influence Revenue,Mktg Win Influence Revenue,Influence WR
 metric,Media Cost,cash spend
 metric,Media Responses
-report,Media Top Sheet,media,banners,groupm,social ads
 metric,Medium (Top New Contact),medium
 metric,Mobile Completion Rate
 metric,Mobile Engagement Rate
 metric,Multiplier,Cov X
 report,Net Promoter Score (Medallia),promoter score,medalia,NPS
 metric,No Action Responses,No action response
-metric,No Action Responses
 dimension,No Show
 metric,Non-Addressable Responses
 metric,Not Available Visits,Unavailable visits,unavailable for chat
@@ -215,7 +212,7 @@ metric,Page Visits
 metric,Paid Completion Rate
 metric,Paid Engagement Rate
 metric,Paid Media Engaged Visits,Paid Engaged visits,Campaign Engaged visits
-report,Paid Media Report
+report,Paid Media Report,media,banners,groupm,social ads
 metric,Paid Visit,Media visit,Paid Sessions
 metric,PERFORM,PPL
 dimension,Pipeline Age
@@ -230,7 +227,7 @@ dimension,Project,Distinct Project,marketing operations project,mo project
 dimension,Project start date
 dimension,Project status
 metric,Qualified+,Qualified+ pipeline
-metric,Qualified+ Contribution 
+metric,Qualified+ Contribution 
 metric,Registered
 metric,Registration Rate
 metric,Registrations
@@ -268,7 +265,7 @@ metric,Starts per Video
 metric,Surveys Completed
 dimension,Tagged Asset
 dimension,Top Project,top filter,Root Project
-report,Top Sheet,Top Sheet,marketing top sheet 2.0,Marketing Top Sheet
+report,Marketing Top Sheet,Top Sheet,marketing top sheet 2.0,Marketing Top Sheet
 metric,Total Addressable Responses,addressable responses
 dimension,Traffic Source
 dimension,Transaction Size
@@ -286,8 +283,7 @@ metric,Video Completion Rate
 metric,Video Count
 metric,Video Length
 metric,Video Starts
-metric,Visit Rate,% of ad that result in visit,paid media/impressions,impressions by ad
-metric,Visit Rate,Impression to visit,impression to visit rate
+metric,Visit Rate,% of ad that result in visit,paid media/impressions,impressions by ad,impression to visit,impression to visit rate
 metric,Visit/Asset,visit per asset
 dimension,Visitor IMT
 dimension,Visitor IOT

@@ -35,7 +35,7 @@
     "title": "% Mobile Visits",
     "type": "metric",
     "report_id": "",
-    "desc": "A visit (session) is an interaction, by an individual, with an IBM Marketing website. A visit can contain multiple page views. A visit times out after 30 minutes of inactivity.  IBM employees, IBM agencies, and bots are excluded from the metric.",
+    "desc": "A visit (session) is an interaction, by an individual, with an IBM Marketing website. A visit can contain multiple page views. A visit times out after 30 minutes of inactivity.  IBM employees, IBM agencies, and bots are excluded from the metric.",
     "synonyms": "",
     "related_reports": "content-analytics"
   },
@@ -171,13 +171,13 @@
     "title": "Asset",
     "type": "dimension",
     "report_id": "",
-    "desc": "Identifies a specific piece of marketing content.  Asset Version Codes are defined in UMO and captured during registration (MRS/URX forms). ",
+    "desc": "Identifies a specific piece of marketing content.  Asset Version Codes are defined in UMO and captured during registration (MRS/URX forms). ",
     "synonyms": "ov code, asset code, asset name, Asset Version Code/Name, content",
     "related_reports": "audience-quality, content-analytics, diagnostic-discovery-engagement, marketing-source, marketing-progress, marketing-win-influence"
   },
   {
     "title": "Page URL",
-    "type": "dimension",
+    "type": "metric",
     "report_id": "",
     "desc": "A shortened minimum version of the URL that delivers the same webpage experience.",
     "synonyms": "",
@@ -339,7 +339,7 @@
     "title": "Business Partner",
     "type": "dimension",
     "report_id": "",
-    "desc": "An IBM business partner (BP).  Marketing created revenue from BP created opportunities (BP MCR) is reported only when a valid marketing code is associated with the opportunity.  ",
+    "desc": "An IBM business partner (BP).  Marketing created revenue from BP created opportunities (BP MCR) is reported only when a valid marketing code is associated with the opportunity.  ",
     "synonyms": "BP",
     "related_reports": "marketing-source, marketing-progress, marketing-win-influence, ytd-source-contribution, ytd-win-influence-contribution, forecast-quarter-contribution, event-revenue, event-end-to-end, event-roi, webcast-e2e-detail"
   },
@@ -363,7 +363,7 @@
     "title": "Buying Cycle",
     "type": "dimension",
     "report_id": "",
-    "desc": "Stage in the purchase lifecycle of an asset.  Clients move toward “Buy” as they gather information and knowledge.",
+    "desc": "Stage in the purchase lifecycle of an asset.  Clients move toward “Buy” as they gather information and knowledge.",
     "synonyms": "Buyer Stage",
     "related_reports": "marketing-source, marketing-progress, marketing-win-influence"
   },
@@ -499,7 +499,7 @@
     "title": "Client Type",
     "type": "dimension",
     "report_id": "",
-    "desc": "A grouping of customers based on their size and IBM relationship.  A dimension against which reporting results are classified which distinguishes the results by the customer set of the account to which the result is associated (landing view). ",
+    "desc": "A grouping of customers based on their size and IBM relationship.  A dimension against which reporting results are classified which distinguishes the results by the customer set of the account to which the result is associated (landing view). ",
     "synonyms": "",
     "related_reports": "marketing-source, marketing-progress, marketing-win-influence, event-revenue, forecast-quarter-contribution, ytd-source-contribution, ytd-win-influence-contribution"
   },
@@ -515,7 +515,7 @@
     "title": "Close Year/Quarter",
     "type": "dimension",
     "report_id": "",
-    "desc": "Quarter the opportunity is expected to close, which is based on the Forecast (HW/SW) or Decision Date (Services). Forecast / Decision date is a date recorded on the opportunity for each revenue (component) record that identifies when the customer can expect to be billed or sign a contract for this component, assuming IBM wins the opportunity. ",
+    "desc": "Quarter the opportunity is expected to close, which is based on the Forecast (HW/SW) or Decision Date (Services). Forecast / Decision date is a date recorded on the opportunity for each revenue (component) record that identifies when the customer can expect to be billed or sign a contract for this component, assuming IBM wins the opportunity. ",
     "synonyms": "forecast date, decision date, forecast / decision date",
     "related_reports": "forecast-quarter-contribution, marketing-win-influence"
   },
@@ -667,7 +667,7 @@
     "title": "Cov %",
     "type": "metric",
     "report_id": "",
-    "desc": "Actual coverage of objectives based on PERFORM value pipeline revenueM.  Percentage value to demonstrate the forecasted revenue based on the projections against the objective set for the Brand/IMT.  Forward-looking pipeline achievement as compared to the pipeline objective.",
+    "desc": "Actual coverage of objectives based on PERFORM value pipeline revenueM.  Percentage value to demonstrate the forecasted revenue based on the projections against the objective set for the Brand/IMT.  Forward-looking pipeline achievement as compared to the pipeline objective.",
     "synonyms": "coverage percent, coverage %",
     "related_reports": "forecast-quarter-contribution"
   },
@@ -691,7 +691,7 @@
     "title": "Customer Name",
     "type": "dimension",
     "report_id": "",
-    "desc": "Business name of the IBM customer. ",
+    "desc": "Business name of the IBM customer. ",
     "synonyms": "",
     "related_reports": "marketing-source, marketing-progress, marketing-win-influence, ytd-source-contribution, ytd-win-influence-contribution, forecast-quarter-contribution, event-revenue, event-end-to-end, event-roi, webcast-e2e-detail"
   },
@@ -867,7 +867,7 @@
     "title": "Event Brief",
     "type": "dimension",
     "report_id": "",
-    "desc": "Event planning document assigned a unique identifier from Event Workspace (EWS) for a single marketing-led, customer-facing event.  Results reported for all marketing codes specified in the Event Brief.",
+    "desc": "Event planning document assigned a unique identifier from Event Workspace (EWS) for a single marketing-led, customer-facing event.  Results reported for all marketing codes specified in the Event Brief.",
     "synonyms": "",
     "related_reports": "event-detail, event-end-to-end, event-revenue, event-roi, webcast-e2e-detail"
   },
@@ -915,7 +915,7 @@
     "title": "Event Objective",
     "type": "dimension",
     "report_id": "",
-    "desc": "The primary goal or objective of your event as specified in Events Workspace (EWS). Lead generating – primarily to generate leads. Lead conversion – primarily to progress or close existing opportunities. Non-lead generating – primarily to bring awareness to attendees but not generate leads. ",
+    "desc": "The primary goal or objective of your event as specified in Events Workspace (EWS). Lead generating – primarily to generate leads. Lead conversion – primarily to progress or close existing opportunities. Non-lead generating – primarily to bring awareness to attendees but not generate leads. ",
     "synonyms": "Event Type",
     "related_reports": "event-detail, event-end-to-end, event-revenue, event-roi"
   },
@@ -923,7 +923,7 @@
     "title": "Event Performance",
     "type": "dimension",
     "report_id": "",
-    "desc": "Count of eligible events which are producing opportunities and those that are not producing opportunities. Non-performing:  approved event (review status = approved) that has an event objective of lead generating and have not produced any results (zero Marketing Source, Marketing Progress or Marketing Win Influence) more than 31+ days. Performing:  approved event (review status = approved) that has an event objective of lead generating and has produced results (Marketing Source, Marketing Progress or Marketing Win Influence) more than 31+ days.",
+    "desc": "Count of eligible events which are producing opportunities and those that are not producing opportunities. Non-performing:  approved event (review status = approved) that has an event objective of lead generating and have not produced any results (zero Marketing Source, Marketing Progress or Marketing Win Influence) more than 31+ days. Performing:  approved event (review status = approved) that has an event objective of lead generating and has produced results (Marketing Source, Marketing Progress or Marketing Win Influence) more than 31+ days.",
     "synonyms": "",
     "related_reports": "event-detail, event-end-to-end, event-revenue, event-roi"
   },
@@ -1035,7 +1035,7 @@
     "title": "GTS Client Value Plays",
     "type": "dimension",
     "report_id": "",
-    "desc": "A sales-led series of tactical activities in order to grow opportunity revenue in a particular solution area or product line involving a variety of customer touch points such as business partners, face to face sales, etc.  Opportunity records can be classified with these sales plays in order to measure their performance.",
+    "desc": "A sales-led series of tactical activities in order to grow opportunity revenue in a particular solution area or product line involving a variety of customer touch points such as business partners, face to face sales, etc.  Opportunity records can be classified with these sales plays in order to measure their performance.",
     "synonyms": "",
     "related_reports": "event-revenue, marketing-win-influence, marketing-source, marketing-progress, forecast-quarter-contribution"
   },
@@ -1139,7 +1139,7 @@
     "title": "Indicator",
     "type": "metric",
     "report_id": "",
-    "desc": "Portion of the Marketing target expected by each week in the year.",
+    "desc": "Portion of the Marketing target expected by each week in the year.",
     "synonyms": "",
     "related_reports": "marketing-targets, marketing-quarterly-targets, win-influence-targets, win-influence-quarterly-targets"
   },
@@ -1163,7 +1163,7 @@
     "title": "Initiative",
     "type": "dimension",
     "report_id": "",
-    "desc": "A strategic corporate-led solution area in a specific market where IBM wants to focus.  Opportunity records can be classified with these growth initiatives in order to measure the performance of them.",
+    "desc": "A strategic corporate-led solution area in a specific market where IBM wants to focus.  Opportunity records can be classified with these growth initiatives in order to measure the performance of them.",
     "synonyms": "",
     "related_reports": "event-revenue, marketing-win-influence, marketing-source, marketing-progress, forecast-quarter-contribution"
   },
@@ -1336,18 +1336,10 @@
     "related_reports": ""
   },
   {
-    "title": "Marketing Quarterly Targets",
-    "type": "report",
-    "report_id": "",
-    "desc": "Measure achievement of Marketing Source quarter-end results to marketing targets by quarter for RLM MCR, BP MCR and Assist to Create.",
-    "synonyms": "",
-    "related_reports": ""
-  },
-  {
     "title": "Marketing Source",
     "type": "metric",
     "report_id": "",
-    "desc": "Client interacted with marketing activities prior to opportunity creation (Marketing Create and Marketing assisted Seller created). ",
+    "desc": "Client interacted with marketing activities prior to opportunity creation (Marketing Create and Marketing assisted Seller created). ",
     "synonyms": "",
     "related_reports": "marketing-top-sheet, e2e-funnel, marketing-source, event-end-to-end, event-revenue, event-roi, marketing-targets, marketing-quarterly-targets, rlm-create-funnel"
   },
@@ -1480,14 +1472,6 @@
     "related_reports": "media-top-sheet"
   },
   {
-    "title": "Media Top Sheet",
-    "type": "report",
-    "report_id": "marketing-top-sheet",
-    "desc": "Provides Chief Marketing Officers (CMO), Campaign Managers, and Paid Media and Digital Strategists a view of Paid Media efficiency and effectiveness across Plans, Projects and Geos.",
-    "synonyms": "media, banners, groupm, social ads",
-    "related_reports": ""
-  },
-  {
     "title": "Medium (Top New Contact)",
     "type": "metric",
     "report_id": "",
@@ -1531,16 +1515,8 @@
     "title": "No Action Responses",
     "type": "metric",
     "report_id": "",
-    "desc": "Count of addressable responses where no action was taken by a campaign flowchart",
+    "desc": "Count of addressable responses where no action was taken by a campaign flowchart. “No Action” includes responses to be investigated and responses where there is no flowchart set up for the campaign.",
     "synonyms": "No action response",
-    "related_reports": "response-management"
-  },
-  {
-    "title": "No Action Responses",
-    "type": "metric",
-    "report_id": "",
-    "desc": "Addressable Responses where no action was taken. “No Action” includes responses to be investigated and responses where there is no flowchart set up for the campaign.",
-    "synonyms": "",
     "related_reports": "response-management"
   },
   {
@@ -1571,7 +1547,7 @@
     "title": "Not in MWS",
     "type": "dimension",
     "report_id": "",
-    "desc": "An indication that either: 1.) The asset is in a live campaign, and is not tagged properly in MWS. Please go to the Content Inventory iGuide in MWS to tag the asset, or 2.) The asset is not in a live campaign. No work to be done, unless added to a live campaign. ",
+    "desc": "An indication that either: 1.) The asset is in a live campaign, and is not tagged properly in MWS. Please go to the Content Inventory iGuide in MWS to tag the asset, or 2.) The asset is not in a live campaign. No work to be done, unless added to a live campaign. ",
     "synonyms": "",
     "related_reports": "content-analytics"
   },
@@ -1587,7 +1563,7 @@
     "title": "Objective (Total Business)",
     "type": "metric",
     "report_id": "",
-    "desc": "Quarterly revenue objective (Txn for HW/SW, Signings for Services, Annual Signings for XaaS).  Business Objective in dollars which should be achieved at week 15 of the quarter.",
+    "desc": "Quarterly revenue objective (Txn for HW/SW, Signings for Services, Annual Signings for XaaS).  Business Objective in dollars which should be achieved at week 15 of the quarter.",
     "synonyms": "",
     "related_reports": "forecast-quarter-contribution"
   },
@@ -1619,7 +1595,7 @@
     "title": "Opportunity Owner Org (OO)",
     "type": "dimension",
     "report_id": "",
-    "desc": "The Owning Org within IBM who recommends if IBM should or should not bid on a given opportunity and who represents IBM to the customer for the entire life cycle of the opportunity. ",
+    "desc": "The Owning Org within IBM who recommends if IBM should or should not bid on a given opportunity and who represents IBM to the customer for the entire life cycle of the opportunity. ",
     "synonyms": "OO, Owning Org",
     "related_reports": "marketing-source, marketing-progress, marketing-win-influence, ytd-source-contribution, ytd-win-influence-contribution, forecast-quarter-contribution, event-revenue, event-end-to-end, event-roi, webcast-e2e-detail, rlm-create-funnel"
   },
@@ -1740,7 +1716,7 @@
     "type": "report",
     "report_id": "media-top-sheet",
     "desc": "Provides Chief Marketing Officers (CMO), Campaign Managers, and Paid Media and Digital Strategists a view of Paid Media efficiency and effectiveness across Plans, Projects and Geos.",
-    "synonyms": "",
+    "synonyms": "media, banners, groupm, social ads",
     "related_reports": ""
   },
   {
@@ -1851,12 +1827,12 @@
     "title": "Qualified+",
     "type": "metric",
     "report_id": "",
-    "desc": "Revenue value of all open or won opportunity detail records in a qualified sales stage or greater.  Includes sales stages of qualified, conditional agreement and won.",
+    "desc": "Revenue value of all open or won opportunity detail records in a qualified sales stage or greater.  Includes sales stages of qualified, conditional agreement and won.",
     "synonyms": "Qualified+ pipeline",
     "related_reports": "forecast-quarter-contribution"
   },
   {
-    "title": "Qualified+ Contribution ",
+    "title": "Qualified+ Contribution ",
     "type": "metric",
     "report_id": "",
     "desc": "Percent marketing contribution to Qualified+ pipeline.",
@@ -1955,7 +1931,7 @@
     "title": "Revenue Type",
     "type": "dimension",
     "report_id": "",
-    "desc": "Categorizes opportunity revenue based upon the offering.  Transactional (FV) is for hardware and software. Total signings (TSV) is for services contracts.  Annual signings (ACV) is for a service offering.",
+    "desc": "Categorizes opportunity revenue based upon the offering.  Transactional (FV) is for hardware and software. Total signings (TSV) is for services contracts.  Annual signings (ACV) is for a service offering.",
     "synonyms": "FV, TSV, ACV",
     "related_reports": "marketing-targets, marketing-quarterly-targets, marketing-source, event-revenue, event-roi"
   },
@@ -1979,7 +1955,7 @@
     "title": "RLM Workload",
     "type": "metric",
     "report_id": "",
-    "desc": "Number of Leads detail records sent to Response and Lead Management (RLM) resources for interaction.  Includes records where the individual asked to be contacted, the individual responded to a marketing initiative and RLM follow-up is defined by campaign design, or the individual is being targeted for a RLM cold call.",
+    "desc": "Number of Leads detail records sent to Response and Lead Management (RLM) resources for interaction.  Includes records where the individual asked to be contacted, the individual responded to a marketing initiative and RLM follow-up is defined by campaign design, or the individual is being targeted for a RLM cold call.",
     "synonyms": "Leads",
     "related_reports": "e2e-funnel, rlm-create-funnel, rlm-workload-detail"
   },
@@ -2043,7 +2019,7 @@
     "title": "Sales Opportunity Detail Key",
     "type": "dimension",
     "report_id": "",
-    "desc": "A string of characters which is unique for each opportunity detail record associated with an opportunity number.  Opportunity details define the different products / solutions which belong to the overall opportunity record (e.g. software part, services part, etc.).",
+    "desc": "A string of characters which is unique for each opportunity detail record associated with an opportunity number.  Opportunity details define the different products / solutions which belong to the overall opportunity record (e.g. software part, services part, etc.).",
     "synonyms": "Opportunity detail record",
     "related_reports": "marketing-source, marketing-progress, marketing-win-influence, ytd-source-contribution, ytd-win-influence-contribution, forecast-quarter-contribution, event-revenue, event-end-to-end, event-roi, webcast-e2e-detail"
   },
@@ -2075,7 +2051,7 @@
     "title": "Proprietary Show Rate",
     "type": "metric",
     "report_id": "",
-    "desc": "The percent of event registrants who attended the event.  Registrants include those who show up without registering prior to the event. Applies to proprietary events only when IBM took event registrations through GRP or AST.",
+    "desc": "The percent of event registrants who attended the event.  Registrants include those who show up without registering prior to the event. Applies to proprietary events only when IBM took event registrations through GRP or AST.",
     "synonyms": "Show Rate",
     "related_reports": "event-detail"
   },
@@ -2160,9 +2136,9 @@
     "related_reports": "marketing-top-sheet, e2e-funnel, diagnostic-discovery-engagement, diagnostic-email"
   },
   {
-    "title": "Top Sheet",
+    "title": "Marketing Top Sheet",
     "type": "report",
-    "report_id": "",
+    "report_id": "marketing-top-sheet",
     "desc": "Provides Chief Marketing Officers (CMO) and marketing leaders with a view of marketing efficiency across Plans, Programs, or Projects.",
     "synonyms": "Top Sheet, marketing top sheet 2.0, Marketing Top Sheet",
     "related_reports": ""
@@ -2187,7 +2163,7 @@
     "title": "Transaction Size",
     "type": "dimension",
     "report_id": "",
-    "desc": "Categorizes opportunity detail records by revenue value.  Same category groups used for all Business Units.",
+    "desc": "Categorizes opportunity detail records by revenue value.  Same category groups used for all Business Units.",
     "synonyms": "",
     "related_reports": "marketing-source, marketing-progress, forecast-quarter-contribution, event-revenue, marketing-win-influence"
   },
@@ -2235,7 +2211,7 @@
     "title": "Validated Pipeline",
     "type": "metric",
     "report_id": "",
-    "desc": "Opportunities which are in an open validated or greater sales stage or won and meet the pipeline business criteria.  Pipeline business criteria is identified by Revenue Type (FV, TSV or ACV) indicator = Y.",
+    "desc": "Opportunities which are in an open validated or greater sales stage or won and meet the pipeline business criteria.  Pipeline business criteria is identified by Revenue Type (FV, TSV or ACV) indicator = Y.",
     "synonyms": "Val Pipe, VP",
     "related_reports": "forecast-quarter-contribution"
   },
@@ -2243,7 +2219,7 @@
     "title": "Validated+",
     "type": "metric",
     "report_id": "",
-    "desc": "Revenue value of all open or won opportunity detail records in a validated sales stage or greater.  Includes sales stages of validated, qualified, conditional agreement and won.",
+    "desc": "Revenue value of all open or won opportunity detail records in a validated sales stage or greater.  Includes sales stages of validated, qualified, conditional agreement and won.",
     "synonyms": "",
     "related_reports": "forecast-quarter-contribution"
   },
@@ -2259,7 +2235,7 @@
     "title": "Venue Geo",
     "type": "dimension",
     "report_id": "",
-    "desc": "Identifies the geography (Geo/Market/Country) of the physical location of the venue where the event is taking place as specified in the event tool suite.",
+    "desc": "Identifies the geography (Geo/Market/Country) of the physical location of the venue where the event is taking place as specified in the event tool suite.",
     "synonyms": "Venue geography",
     "related_reports": "event-detail, event-end-to-end, event-revenue, event-roi"
   },
@@ -2308,16 +2284,8 @@
     "type": "metric",
     "report_id": "",
     "desc": "The percentage of paid media ad impressions that resulted in a visit. Calculated: Campaign Visits (excluding email and owned social) / Total Impressions",
-    "synonyms": "% of ad that result in visit, paid media/iitmpressions, impressions by ad",
+    "synonyms": "% of ad that result in visit, paid media/impressions, impressions by ad, impression to visit, impression to visit rate",
     "related_reports": "e2e-funnel, diagnostic-discovery-engagement, web-metrics, web-page-kpis"
-  },
-  {
-    "title": "Visit Rate",
-    "type": "metric",
-    "report_id": "",
-    "desc": "The percentage of total media impressions that resulted in a visit. Calculated: Campaign visits (exclude email and owned social) / Impressions",
-    "synonyms": "Impression to visit, impression to visit rate",
-    "related_reports": "e2e-funnel, diagnostic-discovery-engagement"
   },
   {
     "title": "Visit/Asset",
