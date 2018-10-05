@@ -1,0 +1,26 @@
+{
+  "local_test": {
+    "credentials": {
+      "username": "aaa1cf42-efae-4016-bb4b-aea34d43d241",
+      "password": "eZiP2FDnYTpq",
+      "version": "2018-02-16"
+    },
+    "workspace_id": "fe642df1-15b7-4eae-a1a0-a0c0c5efc531"
+  },
+  "local": {
+    "credentials": {
+      "username": "aaa1cf42-efae-4016-bb4b-aea34d43d241",
+      "password": "eZiP2FDnYTpq",
+      "version": "2018-02-16"
+    },
+    "workspace_id": "4b0f24a0-769b-49a3-9f9c-6ddb1acb6a4f"
+  },
+  "dev": {
+    "credentials": {
+      "username": "aaa1cf42-efae-4016-bb4b-aea34d43d241",
+      "password": "eZiP2FDnYTpq",
+      "version": "2018-02-16"
+    },
+    "workspace_id": "2c1b4e37-6513-4cab-b544-7576dac8ef76"
+  }
+}

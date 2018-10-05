@@ -1,0 +1,31 @@
+[
+  {
+    "title": "A/B Testing (Optimizely)",
+    "type": "report",
+    "desc": "An experimentation platform that allows marketing teams to test and personalize webpages for constant iteration and optimization based on data-driven hypotheses.",
+    "synonyms": [
+      "Optimizely",
+      "a/b testing",
+      "ab testing"
+    ],
+    "related_reports": ""
+  },
+  {
+    "title": "Active Developers",
+    "type": "report",
+    "desc": "Provides a summary level view of active developers against monthly targets.",
+    "related_reports": ""
+  },
+  {
+    "title": "Audience Quality",
+    "type": "report",
+    "desc": "Provides visibility into audience performance by response across four dimensions: job role, industry, individual newness, and company client status.",
+    "synonyms": [
+      "audience insights",
+      "audience",
+      "segmentation",
+      "segment"
+    ],
+    "related_reports": ""
+  }
+]

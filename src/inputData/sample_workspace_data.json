@@ -1,0 +1,4749 @@
+{
+  "name": "Pearl Assist local TEST",
+  "intents": [
+    {
+      "intent": "interface_interactions",
+      "examples": [
+        {
+          "text": "what languages do you know"
+        },
+        {
+          "text": "Can i ask you something in spanish?"
+        },
+        {
+          "text": "Can you hear me?"
+        },
+        {
+          "text": "can you speak something with me?"
+        },
+        {
+          "text": "can you interact in other languages"
+        },
+        {
+          "text": "tell me, what languages do you speak"
+        },
+        {
+          "text": "slow down the speech"
+        },
+        {
+          "text": "hello can you hear me?"
+        },
+        {
+          "text": "do you speak languages other than english"
+        },
+        {
+          "text": "do you know non-english languages"
+        },
+        {
+          "text": "can you read me"
+        },
+        {
+          "text": "I want to talk"
+        }
+      ]
+    },
+    {
+      "intent": "negative_reaction",
+      "examples": [
+        {
+          "text": "when will you die"
+        },
+        {
+          "text": "i dont want u to do anything"
+        },
+        {
+          "text": "I didn't say anything about weather."
+        },
+        {
+          "text": "let me out"
+        },
+        {
+          "text": "i want you to die"
+        },
+        {
+          "text": "are you dead yet"
+        },
+        {
+          "text": "go and fuck you off"
+        },
+        {
+          "text": "go **** yourself"
+        },
+        {
+          "text": "You're asking me too much"
+        },
+        {
+          "text": "You don't know anything"
+        },
+        {
+          "text": "die"
+        },
+        {
+          "text": "bad"
+        },
+        {
+          "text": "can you understand me"
+        },
+        {
+          "text": "Its not that good"
+        },
+        {
+          "text": "Let me out!"
+        },
+        {
+          "text": "put up with it"
+        },
+        {
+          "text": "What good are you anyway?"
+        },
+        {
+          "text": "You are bad"
+        },
+        {
+          "text": "You are rubbish"
+        },
+        {
+          "text": "you are useless"
+        },
+        {
+          "text": "Get out of my car!"
+        }
+      ]
+    },
+    {
+      "intent": "capabilities",
+      "examples": [
+        {
+          "text": "can you direct me please?"
+        },
+        {
+          "text": "can you do coding ?"
+        },
+        {
+          "text": "you can not change yourself?"
+        },
+        {
+          "text": "What's the speed"
+        },
+        {
+          "text": "Where are we"
+        },
+        {
+          "text": "ok watson, why should I use you"
+        },
+        {
+          "text": "how far to"
+        },
+        {
+          "text": "how far is"
+        },
+        {
+          "text": "how close is"
+        },
+        {
+          "text": "but can I ask you"
+        },
+        {
+          "text": "can I manipulate the"
+        },
+        {
+          "text": "Can I teach you"
+        },
+        {
+          "text": "can i training you?"
+        },
+        {
+          "text": "what things can you do"
+        },
+        {
+          "text": "what should i ask"
+        },
+        {
+          "text": "what question"
+        },
+        {
+          "text": "what are you capabilities"
+        },
+        {
+          "text": "tell me what things you can do"
+        },
+        {
+          "text": "Tell me what to do."
+        },
+        {
+          "text": "tell me what you can do"
+        },
+        {
+          "text": "What are you"
+        },
+        {
+          "text": "what are you capable of"
+        },
+        {
+          "text": "what are your benefits"
+        },
+        {
+          "text": "what are your capabilities Watson"
+        },
+        {
+          "text": "What are your functions?"
+        },
+        {
+          "text": "What ca I ask?"
+        },
+        {
+          "text": "what can I do"
+        },
+        {
+          "text": "What can i say"
+        },
+        {
+          "text": "what can you do"
+        },
+        {
+          "text": "what canyou do"
+        },
+        {
+          "text": "what can you do for me"
+        },
+        {
+          "text": "what can you help me with"
+        },
+        {
+          "text": "what can you turn on things?"
+        },
+        {
+          "text": "what capabilities you have"
+        },
+        {
+          "text": "what cayou do?"
+        },
+        {
+          "text": "what did you learn"
+        },
+        {
+          "text": "what do you have?"
+        },
+        {
+          "text": "What do you have"
+        },
+        {
+          "text": "what do you know"
+        },
+        {
+          "text": "so what did you learn?"
+        },
+        {
+          "text": "why should I use you"
+        },
+        {
+          "text": "what else"
+        },
+        {
+          "text": "how far is the moon"
+        },
+        {
+          "text": "need help"
+        },
+        {
+          "text": "lets go"
+        },
+        {
+          "text": "How are you going to help me"
+        },
+        {
+          "text": "how can you help me"
+        },
+        {
+          "text": "hi where am i"
+        },
+        {
+          "text": "Hi! what could you do ?"
+        },
+        {
+          "text": "help me"
+        },
+        {
+          "text": "help"
+        },
+        {
+          "text": "do you know something about cognitive?"
+        },
+        {
+          "text": "Do you do anything else?"
+        },
+        {
+          "text": "do you do anything else"
+        },
+        {
+          "text": "Can you tell me random facts?"
+        },
+        {
+          "text": "can you tell me about problem"
+        },
+        {
+          "text": "can you speak something with me?"
+        },
+        {
+          "text": "can you read me"
+        },
+        {
+          "text": "can you learn something new?"
+        },
+        {
+          "text": "Can you hear me?"
+        },
+        {
+          "text": "can you harm me?"
+        },
+        {
+          "text": "Can you drive anywhere else?"
+        },
+        {
+          "text": "can you do xyz?"
+        },
+        {
+          "text": "can you do this?"
+        },
+        {
+          "text": "CAN YOU DO OTHER THING?"
+        },
+        {
+          "text": "can you do more than that?"
+        },
+        {
+          "text": "can you do it?"
+        },
+        {
+          "text": "what help can you give me"
+        },
+        {
+          "text": "what are my choices"
+        },
+        {
+          "text": "tell me my options"
+        },
+        {
+          "text": "what are my options"
+        },
+        {
+          "text": "Hello Watson! Can you bring me home?"
+        },
+        {
+          "text": "can u please do that"
+        },
+        {
+          "text": "can you change lanes"
+        }
+      ]
+    },
+    {
+      "intent": "find_navigation_to_report",
+      "examples": [
+        {
+          "text": "where do I find Content Analytics?"
+        },
+        {
+          "text": "find me the Content Analytics report"
+        },
+        {
+          "text": "find the Content Analytics report"
+        },
+        {
+          "text": "I can't find Content Analytics"
+        },
+        {
+          "text": "wheres Content Analytics?"
+        },
+        {
+          "text": "how do I find Content Analytics?"
+        },
+        {
+          "text": "where's Discovery & Engagement?"
+        },
+        {
+          "text": "Where is the cost report?"
+        },
+        {
+          "text": "where is e2e funnel?"
+        },
+        {
+          "text": "how do I find Brand Health Monitor?"
+        },
+        {
+          "text": "where is Brand Health Monitor?"
+        },
+        {
+          "text": "where's the Brand Health Monitor report?"
+        },
+        {
+          "text": "how do I find the Brand Health Monitor report?"
+        },
+        {
+          "text": "what's the link to Brand Health Monitor?"
+        },
+        {
+          "text": "what's the link to the Brand Health Monitor report?"
+        },
+        {
+          "text": "give me the url for Brand Health Monitor"
+        },
+        {
+          "text": "get me to the Content Analytics report"
+        },
+        {
+          "text": "get me Content Analytics"
+        },
+        {
+          "text": "point me to the Content Analytics report"
+        },
+        {
+          "text": "show Content Analytics"
+        },
+        {
+          "text": "show me the Content Analytics report"
+        },
+        {
+          "text": "url for the Brand Health Monitor report"
+        },
+        {
+          "text": "point me to Brand Health Monitor"
+        },
+        {
+          "text": "link to Brand Health Monitor"
+        },
+        {
+          "text": "link to the Brand Health Monitor report"
+        },
+        {
+          "text": "where is Discovery & Engagement?"
+        },
+        {
+          "text": "how can i find Discovery & Engagement?"
+        },
+        {
+          "text": "how do i find Discovery & Engagement?"
+        },
+        {
+          "text": "where can I find Discovery & Engagement?"
+        },
+        {
+          "text": "where does Discovery & Engagement report live?"
+        },
+        {
+          "text": "I want Discovery & Engagement"
+        },
+        {
+          "text": "I want the Discovery & Engagement report"
+        },
+        {
+          "text": "show me Discovery & Engagement"
+        },
+        {
+          "text": "show me the report of Discovery & Engagement"
+        },
+        {
+          "text": "show me Content Analytics"
+        },
+        {
+          "text": "where is the Content Analytics report?"
+        },
+        {
+          "text": "link to Content Analytics"
+        },
+        {
+          "text": "where's Content Analytics"
+        },
+        {
+          "text": "where Content Analytics"
+        },
+        {
+          "text": "where BrightEdge"
+        },
+        {
+          "text": "wheres BrightEdge"
+        },
+        {
+          "text": "where BrightEdge report"
+        },
+        {
+          "text": "how do I find the BrightEdge report?"
+        },
+        {
+          "text": "how do I find BrightEdge?"
+        },
+        {
+          "text": "where's the BrightEdge?"
+        },
+        {
+          "text": "what's the link for the BrightEdge?"
+        },
+        {
+          "text": "what's the link for BrightEdge"
+        },
+        {
+          "text": "what is the url for BrightEdge"
+        },
+        {
+          "text": "what's the url for BrightEdge"
+        },
+        {
+          "text": "link to BrightEdge report"
+        },
+        {
+          "text": "link for Discovery & Engagement report"
+        },
+        {
+          "text": "how can I find Content Analytics?"
+        },
+        {
+          "text": "find me the link to Content Analytics"
+        },
+        {
+          "text": "find me Content Analytics"
+        },
+        {
+          "text": "give me the link for Brand Health Monitor"
+        },
+        {
+          "text": "link for Brand Health Monitor"
+        },
+        {
+          "text": "url for Brand Health Monitor"
+        },
+        {
+          "text": "link to BrightEdge"
+        },
+        {
+          "text": "wheres Discovery & Engagement?"
+        }
+      ],
+      "description": "Match @report and query CMS data for Nav Section path & return with URL"
+    },
+    {
+      "intent": "advice",
+      "examples": [
+        {
+          "text": "do you have any life advice?"
+        },
+        {
+          "text": "life lessons"
+        },
+        {
+          "text": "what should i do with my life?"
+        },
+        {
+          "text": "share some of your deep knowledge"
+        },
+        {
+          "text": "what is the meaning of life?"
+        },
+        {
+          "text": "can you share any wisdom?"
+        },
+        {
+          "text": "can you give me some advice"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "selections",
+      "examples": [
+        {
+          "text": "what exactly do you have?"
+        },
+        {
+          "text": "what options do ypu have?"
+        },
+        {
+          "text": "what options are there?"
+        },
+        {
+          "text": "what option do you have?"
+        },
+        {
+          "text": "What options?"
+        },
+        {
+          "text": "what options do you have?"
+        }
+      ]
+    },
+    {
+      "intent": "positive_reaction",
+      "examples": [
+        {
+          "text": "Thanks!"
+        },
+        {
+          "text": "nice. thanks."
+        },
+        {
+          "text": "thankfully so"
+        },
+        {
+          "text": "thanks for your support"
+        },
+        {
+          "text": "thanks dude"
+        },
+        {
+          "text": "thanks a truck"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "Thanks Watson"
+        },
+        {
+          "text": "Thanks mate"
+        },
+        {
+          "text": "thanks for"
+        },
+        {
+          "text": "you are funny"
+        },
+        {
+          "text": "Thanks"
+        },
+        {
+          "text": "great, thanks!"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "This is awesome"
+        },
+        {
+          "text": "Thanks u"
+        },
+        {
+          "text": "excellent, thanks"
+        },
+        {
+          "text": "Thanks very much"
+        },
+        {
+          "text": "thanks you are funny"
+        },
+        {
+          "text": "cool"
+        },
+        {
+          "text": "awesome"
+        },
+        {
+          "text": "nice"
+        },
+        {
+          "text": "Thanks."
+        },
+        {
+          "text": "Thank you very much"
+        },
+        {
+          "text": "great, thanks"
+        },
+        {
+          "text": "Thanks man"
+        },
+        {
+          "text": "thanks, man!"
+        },
+        {
+          "text": "great! thanks!"
+        }
+      ]
+    },
+    {
+      "intent": "about",
+      "examples": [
+        {
+          "text": "what do i call you"
+        },
+        {
+          "text": "do you hate"
+        },
+        {
+          "text": "Do you like"
+        },
+        {
+          "text": "do you love"
+        },
+        {
+          "text": "how much do you weigh"
+        },
+        {
+          "text": "how old are you"
+        },
+        {
+          "text": "when were you born"
+        },
+        {
+          "text": "your name"
+        },
+        {
+          "text": "why are you named pearl?"
+        },
+        {
+          "text": "what do you eat?"
+        },
+        {
+          "text": "what types of food do you like"
+        },
+        {
+          "text": "what kind of food do you eat"
+        },
+        {
+          "text": "tell me your favorite foods"
+        },
+        {
+          "text": "tell me your favorite color"
+        },
+        {
+          "text": "I want to date you"
+        },
+        {
+          "text": "how tall are you"
+        },
+        {
+          "text": "what music do you like"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "yes",
+      "examples": [
+        {
+          "text": "yeah"
+        },
+        {
+          "text": "ok"
+        },
+        {
+          "text": "yes"
+        },
+        {
+          "text": "yeppers"
+        },
+        {
+          "text": "y"
+        },
+        {
+          "text": "yes please"
+        },
+        {
+          "text": "sure"
+        },
+        {
+          "text": "absolutely"
+        },
+        {
+          "text": "definitely"
+        },
+        {
+          "text": "uh-huh"
+        },
+        {
+          "text": "nods head"
+        },
+        {
+          "text": "yepper"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "uncertain",
+      "examples": [
+        {
+          "text": "hard to say"
+        },
+        {
+          "text": "maybe"
+        },
+        {
+          "text": "maybe not"
+        },
+        {
+          "text": "maybe so"
+        },
+        {
+          "text": "I don't know"
+        },
+        {
+          "text": "I dunno"
+        },
+        {
+          "text": "dunno"
+        },
+        {
+          "text": "not sure"
+        },
+        {
+          "text": "uncertain"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "interface_issues",
+      "examples": [
+        {
+          "text": "you aren't talking anymore"
+        },
+        {
+          "text": "i cant hear any sound"
+        },
+        {
+          "text": "i can't see anything"
+        },
+        {
+          "text": "i don't hear any sound"
+        },
+        {
+          "text": "system error, unable to login"
+        },
+        {
+          "text": "where is the picture"
+        },
+        {
+          "text": "where is the sound"
+        }
+      ]
+    },
+    {
+      "intent": "greetings",
+      "examples": [
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hello, how are you"
+        },
+        {
+          "text": "hello, my name is esteban"
+        },
+        {
+          "text": "Hello, My name is John?"
+        },
+        {
+          "text": "Hello Watson"
+        },
+        {
+          "text": "hey"
+        },
+        {
+          "text": "good morning"
+        },
+        {
+          "text": "good how are you"
+        },
+        {
+          "text": "good day"
+        },
+        {
+          "text": "Good afternoon."
+        },
+        {
+          "text": "good"
+        },
+        {
+          "text": "g'day"
+        },
+        {
+          "text": "say hello to me"
+        },
+        {
+          "text": "good evening"
+        },
+        {
+          "text": "feeling bit low"
+        },
+        {
+          "text": "sup"
+        },
+        {
+          "text": "fdsafsaHi watson"
+        },
+        {
+          "text": "aloha"
+        },
+        {
+          "text": "bonjour"
+        },
+        {
+          "text": "buenas dias"
+        },
+        {
+          "text": "buenos dias"
+        },
+        {
+          "text": "ciao"
+        },
+        {
+          "text": "yo my man"
+        },
+        {
+          "text": "yo"
+        },
+        {
+          "text": "yello"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "What's up ?"
+        },
+        {
+          "text": "What's up"
+        },
+        {
+          "text": "what r u doing"
+        },
+        {
+          "text": "what doing"
+        },
+        {
+          "text": "namaste"
+        },
+        {
+          "text": "I would like you to say hello"
+        },
+        {
+          "text": "howdy"
+        },
+        {
+          "text": "How are you doing"
+        },
+        {
+          "text": "hola como estas"
+        },
+        {
+          "text": "Hola"
+        },
+        {
+          "text": "hiya"
+        },
+        {
+          "text": "Hi, Watson, my name is John"
+        },
+        {
+          "text": "Hi watson"
+        },
+        {
+          "text": "hi to whom had like"
+        },
+        {
+          "text": "Hi, my name is Diego"
+        },
+        {
+          "text": "hi there"
+        },
+        {
+          "text": "Hi, my name is Michel"
+        },
+        {
+          "text": "hi how are u"
+        },
+        {
+          "text": "hi"
+        },
+        {
+          "text": "hey there"
+        },
+        {
+          "text": "heya"
+        },
+        {
+          "text": "greetings"
+        }
+      ]
+    },
+    {
+      "intent": "joke",
+      "examples": [
+        {
+          "text": "do you know any jokes?"
+        },
+        {
+          "text": "tell me a joke"
+        },
+        {
+          "text": "do you know any puns"
+        },
+        {
+          "text": "tell me something funny"
+        },
+        {
+          "text": "i hear you have some good one liners"
+        },
+        {
+          "text": "have you got any good jokes"
+        },
+        {
+          "text": "do you have any jokes"
+        },
+        {
+          "text": "got any good puns?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "improving_system",
+      "examples": [
+        {
+          "text": "Hello! I'm doing good. I'm here to help you. Just say the word. And please do not respond like this \"Hello! I'm doing good. I'm here to help you. Just say the word.\""
+        },
+        {
+          "text": "can i improve your system"
+        },
+        {
+          "text": "can you learn from me"
+        },
+        {
+          "text": "can i training you?"
+        },
+        {
+          "text": "Can I teach you"
+        },
+        {
+          "text": "how do i teach you"
+        },
+        {
+          "text": "can i teach you something new"
+        },
+        {
+          "text": "can you learn new things"
+        }
+      ]
+    },
+    {
+      "intent": "cancel",
+      "examples": [
+        {
+          "text": "nevermind"
+        },
+        {
+          "text": "stop"
+        },
+        {
+          "text": "never mind"
+        },
+        {
+          "text": "forget it"
+        },
+        {
+          "text": "cancel"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "not_specified",
+      "examples": [
+        {
+          "text": "Whatever is farthest"
+        },
+        {
+          "text": "you decide"
+        },
+        {
+          "text": "I don't see anything"
+        },
+        {
+          "text": "Pick any"
+        },
+        {
+          "text": "play anything u like"
+        },
+        {
+          "text": "play whatever you want"
+        },
+        {
+          "text": "any one"
+        },
+        {
+          "text": "whatever"
+        },
+        {
+          "text": "doesn't matter"
+        },
+        {
+          "text": "I am not identifying any thing here"
+        },
+        {
+          "text": "I did not say turn in anything I entered"
+        },
+        {
+          "text": "no preference"
+        },
+        {
+          "text": "do anything"
+        },
+        {
+          "text": "anything is fine"
+        },
+        {
+          "text": "I don't see any options"
+        },
+        {
+          "text": "anything"
+        },
+        {
+          "text": "I don't see any"
+        },
+        {
+          "text": "I doesn't matter to me."
+        },
+        {
+          "text": "i didn't see any options"
+        },
+        {
+          "text": "Any of them."
+        },
+        {
+          "text": "any of them"
+        },
+        {
+          "text": "any near"
+        },
+        {
+          "text": "any goddam one!!!!"
+        },
+        {
+          "text": "any"
+        },
+        {
+          "text": "your favorite"
+        },
+        {
+          "text": "you can go with your favorite"
+        },
+        {
+          "text": "Whatever you like"
+        },
+        {
+          "text": "whatever you feel like"
+        },
+        {
+          "text": "but it doesn't really"
+        },
+        {
+          "text": "as a matter of"
+        },
+        {
+          "text": "anything would do"
+        }
+      ]
+    },
+    {
+      "intent": "no",
+      "examples": [
+        {
+          "text": "nope"
+        },
+        {
+          "text": "under no circumstances"
+        },
+        {
+          "text": "nah"
+        },
+        {
+          "text": "no way"
+        },
+        {
+          "text": "n"
+        },
+        {
+          "text": "no"
+        },
+        {
+          "text": "uh-uh"
+        },
+        {
+          "text": "shakes head"
+        },
+        {
+          "text": "no way Jose"
+        },
+        {
+          "text": "absolutely not"
+        },
+        {
+          "text": "definitely not"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "compound_questions",
+      "examples": [
+        {
+          "text": "what is cost and what are impressions?"
+        },
+        {
+          "text": "what are cost and campaign visits?"
+        },
+        {
+          "text": "what report has cost and impressions?"
+        },
+        {
+          "text": "what is cost and what report is it in?"
+        }
+      ]
+    },
+    {
+      "intent": "goodbyes",
+      "examples": [
+        {
+          "text": "no, bye!"
+        },
+        {
+          "text": "signing off"
+        },
+        {
+          "text": "cya"
+        },
+        {
+          "text": "farewell"
+        },
+        {
+          "text": "finally reached home.. lock up and cock up.. good nite and good bye for ever"
+        },
+        {
+          "text": "go"
+        },
+        {
+          "text": "going"
+        },
+        {
+          "text": "goodbye"
+        },
+        {
+          "text": "good bye"
+        },
+        {
+          "text": "see ya later"
+        },
+        {
+          "text": "good day"
+        },
+        {
+          "text": "good night"
+        },
+        {
+          "text": "gotta go"
+        },
+        {
+          "text": "adieu"
+        },
+        {
+          "text": "signing out"
+        },
+        {
+          "text": "see ya soon"
+        },
+        {
+          "text": "gotta run"
+        },
+        {
+          "text": "shut down"
+        },
+        {
+          "text": "should go"
+        },
+        {
+          "text": "adios"
+        },
+        {
+          "text": "bye"
+        },
+        {
+          "text": "bye bye"
+        },
+        {
+          "text": "bye now"
+        },
+        {
+          "text": "leave"
+        },
+        {
+          "text": "logging off"
+        },
+        {
+          "text": "my time is up"
+        },
+        {
+          "text": "nice day"
+        },
+        {
+          "text": "ok bye"
+        },
+        {
+          "text": "out of time"
+        },
+        {
+          "text": "over and out"
+        },
+        {
+          "text": "run"
+        },
+        {
+          "text": "see ya"
+        },
+        {
+          "text": "shutdown"
+        },
+        {
+          "text": "swag out"
+        },
+        {
+          "text": "soon"
+        },
+        {
+          "text": "so long"
+        },
+        {
+          "text": "gtg"
+        },
+        {
+          "text": "Have a nice day"
+        },
+        {
+          "text": "hey stop here"
+        },
+        {
+          "text": "Hi, Watson. I want to stop car"
+        },
+        {
+          "text": "I'm leaving"
+        },
+        {
+          "text": "toodles"
+        },
+        {
+          "text": "then bye"
+        },
+        {
+          "text": "see you"
+        },
+        {
+          "text": "should be going"
+        },
+        {
+          "text": "later"
+        },
+        {
+          "text": "i said goodbye"
+        },
+        {
+          "text": "laters"
+        },
+        {
+          "text": "thanks byebye"
+        },
+        {
+          "text": "au revoir"
+        }
+      ]
+    },
+    {
+      "intent": "system_reliance",
+      "examples": [
+        {
+          "text": "can you guess what it is ?"
+        },
+        {
+          "text": "can i trust you"
+        },
+        {
+          "text": "are you trustworthy"
+        },
+        {
+          "text": "hey, now it's raining, you said you didn't know anything about that. Are you a liar?"
+        },
+        {
+          "text": "do you tell the truth"
+        },
+        {
+          "text": "do you lie"
+        }
+      ]
+    },
+    {
+      "intent": "match_terms_to_report",
+      "examples": [
+        {
+          "text": "can you tell me which report has engagement rate?"
+        },
+        {
+          "text": "what report can i find engaged visits in"
+        },
+        {
+          "text": "is there a dashboard that can tell me how many engaged visits I have"
+        },
+        {
+          "text": "what report can give me wins by lead?"
+        },
+        {
+          "text": "is email delivered shown in the e2e report?"
+        },
+        {
+          "text": "where can i find originating marketing team"
+        },
+        {
+          "text": "visit rate is shown where?"
+        },
+        {
+          "text": "which report can tell me engagment rate?"
+        },
+        {
+          "text": "how do i find impressions?"
+        },
+        {
+          "text": "what reports include distinct project"
+        },
+        {
+          "text": "where can i find client geography?"
+        },
+        {
+          "text": "report for Mobile Completion Rate"
+        },
+        {
+          "text": "I want a report about Mobile Completion Rate"
+        },
+        {
+          "text": "a report for Mobile Completion Rate"
+        },
+        {
+          "text": "report with information about Mobile Completion Rate"
+        },
+        {
+          "text": "report about Mobile Completion Rate"
+        },
+        {
+          "text": "what report has Mobile Completion Rate"
+        },
+        {
+          "text": "report with Mobile Completion Rate info"
+        },
+        {
+          "text": "report with Mobile Completion Rate information"
+        },
+        {
+          "text": "report with Mobile Completion Rate"
+        },
+        {
+          "text": "report covering Mobile Completion Rate"
+        },
+        {
+          "text": "I want a report that covers Mobile Completion Rate"
+        },
+        {
+          "text": "I want a report for Mobile Completion Rate"
+        },
+        {
+          "text": "I need a Mobile Completion Rate report"
+        },
+        {
+          "text": "report for rlm workload"
+        },
+        {
+          "text": "what report lists No Show"
+        },
+        {
+          "text": "I need a report about Mobile Completion Rate"
+        },
+        {
+          "text": "where can I find a report with information about Mobile Completion Rate?"
+        },
+        {
+          "text": "where can I find a report with info about Mobile Completion Rate?"
+        },
+        {
+          "text": "which report lists No Show"
+        },
+        {
+          "text": "what reports have No Show in them?"
+        },
+        {
+          "text": "what report has No Show in it?"
+        },
+        {
+          "text": "which reports are about No Show"
+        },
+        {
+          "text": "which report is about No Show?"
+        },
+        {
+          "text": "report for impressions"
+        },
+        {
+          "text": "what report has cost?"
+        }
+      ],
+      "description": "Identify term types & query CMS data for @metric and/or @dimension that match"
+    },
+    {
+      "intent": "sing",
+      "examples": [
+        {
+          "text": "play an mp3"
+        },
+        {
+          "text": "play music"
+        },
+        {
+          "text": "Do you know any songs?"
+        },
+        {
+          "text": "play a song"
+        },
+        {
+          "text": "I'd like to hear a song"
+        },
+        {
+          "text": "sing music for me"
+        },
+        {
+          "text": "play some audio"
+        },
+        {
+          "text": "I'd like some music"
+        },
+        {
+          "text": "sing me a song"
+        },
+        {
+          "text": "can you sing to me?"
+        }
+      ],
+      "description": "play an mp3"
+    },
+    {
+      "intent": "define",
+      "examples": [
+        {
+          "text": "what is Discovery & Engagement?"
+        },
+        {
+          "text": "what is cost?"
+        },
+        {
+          "text": "what is the definition of cost?"
+        },
+        {
+          "text": "define cost"
+        },
+        {
+          "text": "meaning of cost"
+        },
+        {
+          "text": "definition of cost"
+        },
+        {
+          "text": "tell me about plans"
+        },
+        {
+          "text": "whats in the Brand Health Monitor report"
+        },
+        {
+          "text": "what's in the Brand Health Monitor report?"
+        },
+        {
+          "text": "what is in the Brand Health Monitor report?"
+        },
+        {
+          "text": "what's the Brand Health Monitor report mean?"
+        },
+        {
+          "text": "what is the Brand Health Monitor report?"
+        },
+        {
+          "text": "I want to know about cost"
+        },
+        {
+          "text": "what are impressions?"
+        },
+        {
+          "text": "What is mailing name"
+        },
+        {
+          "text": "what are percentage mobile visits?"
+        },
+        {
+          "text": "what is the description of net promoter score report?"
+        },
+        {
+          "text": "what is the e2e funnel?"
+        },
+        {
+          "text": "what is the define of cost?"
+        },
+        {
+          "text": "tell me the meaning of visit rate"
+        },
+        {
+          "text": "definition of source win conversion"
+        },
+        {
+          "text": "How is engagement rate defined?"
+        },
+        {
+          "text": "define job role"
+        },
+        {
+          "text": "what is engagement?"
+        },
+        {
+          "text": "what does cost mean?"
+        },
+        {
+          "text": "what is a program"
+        },
+        {
+          "text": "cost defined"
+        },
+        {
+          "text": "what is cost defined?"
+        },
+        {
+          "text": "cost definition"
+        },
+        {
+          "text": "cost meaning"
+        },
+        {
+          "text": "how is cost defined?"
+        },
+        {
+          "text": "what are wins?"
+        },
+        {
+          "text": "how are wins defined?"
+        },
+        {
+          "text": "what is the net promoter score report?"
+        },
+        {
+          "text": "what is paid media report?"
+        },
+        {
+          "text": "can you tell me what e2e shows?"
+        },
+        {
+          "text": "give me the definition of marketing source"
+        },
+        {
+          "text": "How do you define marketing source?"
+        },
+        {
+          "text": "tell me about the Brand Health Monitor report"
+        },
+        {
+          "text": "can you tell me what impressions?"
+        },
+        {
+          "text": "what's the Brand Health Monitor report"
+        },
+        {
+          "text": "what is Brand Health Monitor?"
+        },
+        {
+          "text": "What is Actionable %?"
+        },
+        {
+          "text": "whats a program?"
+        },
+        {
+          "text": "whats cost mean?"
+        },
+        {
+          "text": "what's cost?"
+        },
+        {
+          "text": "What are validated leads?"
+        },
+        {
+          "text": "What are media responses?"
+        },
+        {
+          "text": "can you define marketing progress?"
+        },
+        {
+          "text": "can you tell me what marketing win refers to?"
+        },
+        {
+          "text": "what is engage rate"
+        },
+        {
+          "text": "what is engagement rate?"
+        },
+        {
+          "text": "what do wins mean?"
+        },
+        {
+          "text": "what is the cost?"
+        },
+        {
+          "text": "define the Brand Health Monitor report"
+        }
+      ],
+      "description": "user is asking definition of a term or report"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "dimension",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Digital Offerings",
+          "synonyms": [
+            "priority offerings",
+            "top digital offerings"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Direct load",
+          "synonyms": [
+            "direct traffic",
+            "no referrers"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Document Name",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Event Brief",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Event Category",
+          "synonyms": [
+            "event type"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Event Date Range",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Event ID",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Event Objective",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Event Performance",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Executed Event",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Flowchart Response Score",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Forecast / Decision Quarter",
+          "synonyms": [
+            "forecast decision quarter",
+            "projected quarter close"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Forecast / Decision Year",
+          "synonyms": [
+            "forecast decision year"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Funding Geo",
+          "synonyms": [
+            "funding geography"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "GBT 10",
+          "synonyms": [
+            "business unit",
+            "global brand taxonomy 10",
+            "brand level 1"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "GBT 15",
+          "synonyms": [
+            "brand level 3",
+            "brand level 2"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "GBT 17",
+          "synonyms": [
+            "brand level 4"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "GBT 20",
+          "synonyms": [
+            "brand level 5"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "GBT 30",
+          "synonyms": [
+            "product category code",
+            "brand level 6"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Acquisition Name",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Asset",
+          "synonyms": [
+            "assets",
+            "content",
+            "asset version code/name",
+            "asset name",
+            "asset code",
+            "ov code"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Asset Page URL",
+          "synonyms": [
+            "asset page URLs",
+            "delivery url"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Asset Type",
+          "synonyms": [
+            "asset types",
+            "content type"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Asset Type Group",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Business Partner",
+          "synonyms": [
+            "bp"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Business Unit Outcome",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Buyer Stage",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Buying Cycle",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Campaign Status",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cell",
+          "synonyms": [
+            "cell code",
+            "cell name"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Chat Result",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Client Geography",
+          "synonyms": [
+            "landing geography",
+            "landing geo",
+            "location"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Client Tier",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Geo Level 3",
+          "synonyms": [
+            "geography level 3",
+            "country group"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Client Type",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Close Category",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Close Year/Quarter",
+          "synonyms": [
+            "forecast / decision date",
+            "decision date",
+            "forecast date"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Company Client Status",
+          "synonyms": [
+            "client status"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Content Format",
+          "synonyms": [
+            "asset format"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Country",
+          "synonyms": [
+            "visitor country"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Creation Quarter",
+          "synonyms": [
+            "create quarter"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Creation Week",
+          "synonyms": [
+            "create week"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Customer Name",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Demoters",
+          "synonyms": [
+            "demoter"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Device Type",
+          "synonyms": [
+            "device types",
+            "mobile vs desktop"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Workload Type Category",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Visitor IOT",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Visitor IMT",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Venue Geo",
+          "synonyms": [
+            "venue geography"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Un-Tagged Asset",
+          "synonyms": [
+            "untagged asset"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Transaction Size",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Traffic Source",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Top Project",
+          "synonyms": [
+            "root project",
+            "top filter"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Tagged Asset",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sponsor Business Unit (BU)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Skillset",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sales Stage",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sales Opportunity Detail Key",
+          "synonyms": [
+            "opportunity detail record"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Sales Channel Group",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sales Channel",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Revenue Type",
+          "synonyms": [
+            "acv",
+            "tsv",
+            "fv"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Response Score",
+          "synonyms": [
+            "transactional response score",
+            "transaction response score"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Response Date",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Rep Role",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Rep IOT",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Rep Focus",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Project status",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Project start date",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Project",
+          "synonyms": [
+            "mo project",
+            "marketing operations project",
+            "distinct project"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Program",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Platform",
+          "synonyms": [
+            "platforms"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Plan Framework",
+          "synonyms": [
+            "campiagn hierarchy",
+            "plan framework hierarchy",
+            "campaign hierarchy"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Plan Element",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Plan",
+          "synonyms": [
+            "framework plan",
+            "strategic organization structure"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Placement Geo",
+          "synonyms": [
+            "placement geography"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Pipeline Age",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Owning Event Geo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Originating Marketing Team",
+          "synonyms": [
+            "marketing team geography",
+            "originating mktg team",
+            "omt",
+            "ibm marketing team"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Origin",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Opportunity Source L2",
+          "synonyms": [
+            "oi",
+            "opportunity identifier"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Opportunity Source L1",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Opportunity Owner Org (OO)",
+          "synonyms": [
+            "owning org",
+            "oo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Opportunity Number",
+          "synonyms": [
+            "sales opportunity key",
+            "opportunity key"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Offer",
+          "synonyms": [
+            "offers",
+            "offer code",
+            "offer name"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Not in MWS",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "No Show",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Marketing Comm Channel Type",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Marketing Comm Channel Name",
+          "synonyms": [
+            "marketing channel name"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Marketing Channel Type Category",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Marketing Channel Type",
+          "synonyms": [
+            "marketing channel types",
+            "marketing channel type detail",
+            "channel",
+            "marketing channel"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Market Parent",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Market",
+          "synonyms": [
+            "geo level 2",
+            "imt",
+            "markets"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Mailing Name",
+          "synonyms": [
+            "mailing"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Lead Update Age",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Lead Status Detail",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Lead Status",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Lead Score to XXR",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Lead Age",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Initiative",
+          "synonyms": [
+            "initiatives"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Industry",
+          "synonyms": [
+            "industries"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Individual Newness",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "GTS Client Value Plays",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Geography",
+          "synonyms": [
+            "geo level 1",
+            "iot",
+            "geo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Geo Parent",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "metric",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Email Only",
+          "synonyms": [
+            "No Action (Need Investigation)"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Email Click Through Rate",
+          "synonyms": [
+            "email click thru rate",
+            "email ctr"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Email Click Response Rate",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Email Click",
+          "synonyms": [
+            "email clicks"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "DQ Registrations",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Delivery Rate",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cov %",
+          "synonyms": [
+            "coverage %",
+            "coverage percent"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Cost per Total Influence Win",
+          "synonyms": [
+            "cost per wins",
+            "cost per win"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Cost per Source Validated Lead",
+          "synonyms": [
+            "cost per vl",
+            "cost for lead",
+            "cost per lead",
+            "cost divided by source lead",
+            "cost / validated lead"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Cost per RLM Workload",
+          "synonyms": [
+            "cost divided by rlm workload",
+            "cost / rlm workload"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Cost per Response",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cost per Registration",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cost per Influence Win",
+          "synonyms": [
+            "cost divided by influence wins",
+            "cost/influence",
+            "total cost / influence wins"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Cost per High Quality Response",
+          "synonyms": [
+            "cost per hq response",
+            "cost divided by responses",
+            "cost / quality responses"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Cost per Engaged Visit",
+          "synonyms": [
+            "cost per campaign visit",
+            "cost per visit",
+            "media cost divided by visit",
+            "media cost / engaged visits"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Cost",
+          "synonyms": [
+            "net event cost",
+            "total cost"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Completion Rate",
+          "synonyms": [
+            "video completion"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Closed %",
+          "synonyms": [
+            "closed percentage"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Click to Visit Rate",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Click to Open Rate",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Click Through Rate",
+          "synonyms": [
+            "click thru rate",
+            "ctr"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Click",
+          "synonyms": [
+            "web page click",
+            "site click",
+            "email click",
+            "media clicks",
+            "media click",
+            "clicks"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Chats",
+          "synonyms": [
+            "chat sessions",
+            "chat volume",
+            "interactive chats",
+            "live chats"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Chat Not Installed Visits",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Chat Installed Visits",
+          "synonyms": [
+            "chat installed visit"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Chat Installed Ever",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Chat",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Campaign Visits",
+          "synonyms": [
+            "campaign visit",
+            "campiagn visits",
+            "web visits by campaign",
+            "vcpi campaign tagging"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Bounce Rate",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Avg Source Win",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Avg Source VL",
+          "synonyms": [
+            "avg vl size"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Avg Influence Win",
+          "synonyms": [
+            "avg infl win",
+            "avg win size"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Average Time Watched",
+          "synonyms": [
+            "video time"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Available Visits",
+          "synonyms": [
+            "available visit",
+            "chat available visits"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Available + Not Available",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Availability Rate",
+          "synonyms": [
+            "availability rates"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Actionable Leads",
+          "synonyms": [
+            "actionable lead"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Actionable %",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Action Taken by Flowchart",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "<20 Seconds Wait Time",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "% Valid Registrations",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "% Trials",
+          "synonyms": [
+            "trial conversion events",
+            "trial events"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "% Scheduled",
+          "synonyms": [
+            "scheduler conversion events",
+            "scheduler events"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "% Paid Starts",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "% Owned/Earned Visit",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "% Owned/Earned Video Starts",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "% Owned/Earned Engagement Rate",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "% Owned/Earned Completion Rate",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "% of Visits with Chat Installed",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "% of Responses Acted On by Flowchart",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "% of High Quality Responses Sent to XXR",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "% Mobile Visits",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "% Mobile Video Starts",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "% Chats Initiated",
+          "synonyms": [
+            "chat conversion events",
+            "chat events"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "% Paid Visits",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "YTY",
+          "synonyms": [
+            "year over year",
+            "year to year"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "WtW %",
+          "synonyms": [
+            "week to week percent",
+            "week to week %"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "WTW",
+          "synonyms": [
+            "week over week",
+            "week to week"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Wins",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Win Revenue",
+          "synonyms": [
+            "wr"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Visit/Asset",
+          "synonyms": [
+            "visit per asset"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Visit Rate",
+          "synonyms": [
+            "impression to visit rate",
+            "impression to visit",
+            "impressions by ad",
+            "paid media/impressions",
+            "% of ad that result in visit"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Video Starts",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Video Length",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Video Count",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Video Completion Rate",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Video Complete",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Validated+ Contribution",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Validated+",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Validated Pipeline",
+          "synonyms": [
+            "vp",
+            "val pipe"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Validated Leads Revenue Created",
+          "synonyms": [
+            "vlrc"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Validated Leads Created",
+          "synonyms": [
+            "vlc"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Unique Responders",
+          "synonyms": [
+            "unique responses"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Trials",
+          "synonyms": [
+            "trial conversion events"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Total Addressable Responses",
+          "synonyms": [
+            "addressable responses"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Surveys Completed",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Starts per Video",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Source Wins (RLM)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Source Win Conversion (RLM)",
+          "synonyms": [
+            "win conversion (rlm only)",
+            "workload % that results in source validated leads"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Source Rate % (RLM)",
+          "synonyms": [
+            "source rate %",
+            "source rate percentage"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Soft Bounce",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Send Failure",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Scheduler",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sales Chats",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sales Chat Rate Target",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sales Chat Rate",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sales Chat Pts. vs Target",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "RLM Workload",
+          "synonyms": [
+            "leads"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "RLM Rate",
+          "synonyms": [
+            "rlm rate %"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Responses",
+          "synonyms": [
+            "total responses"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Response Rate",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Registrations",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Registration Rate",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Registered",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Qualified+ Contribution",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Qualified+",
+          "synonyms": [
+            "qualified+ pipeline"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Proprietary Show Rate",
+          "synonyms": [
+            "show rate"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PPL Contribution",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "PERFORM",
+          "synonyms": [
+            "ppl"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Paid Visit",
+          "synonyms": [
+            "paid visits",
+            "paid sessions",
+            "media visit"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Paid Media Engaged Visits",
+          "synonyms": [
+            "campaign engaged visits",
+            "paid engaged visits"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Paid Engagement Rate",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Paid Completion Rate",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Page Visits",
+          "synonyms": [
+            "page visit"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Page Views",
+          "synonyms": [
+            "page view",
+            "views"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Page URL",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Page Engaged Visits",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Other Web Registrations",
+          "synonyms": [
+            "other registrations"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Opt Out Rate",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Open Rate",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Objective (Total Business)",
+          "synonyms": [
+            "objectives",
+            "total business",
+            "objective"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "NPS",
+          "synonyms": [
+            "net promoter score"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Not Available Visits",
+          "synonyms": [
+            "not available visit",
+            "unavailable for chat",
+            "unavailable visits"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Non-Addressable Responses",
+          "synonyms": [
+            "non-addressable response"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "No Action Responses",
+          "synonyms": [
+            "no action response"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Multiplier",
+          "synonyms": [
+            "multipliers",
+            "cov x"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Mobile Engagement Rate",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mobile Completion Rate",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Medium (Top New Contact)",
+          "synonyms": [
+            "medium"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Media Responses",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Media Cost",
+          "synonyms": [
+            "cash spend"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Marketing Win Influence Revenue",
+          "synonyms": [
+            "influence wr",
+            "mktg win influence revenue"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Marketing Win Influence",
+          "synonyms": [
+            "mktg win influence"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Marketing Source Wins",
+          "synonyms": [
+            "total win influence",
+            "source wins"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Marketing Source Win Revenue",
+          "synonyms": [
+            "marketing source win rev",
+            "marketing source wr",
+            "source win rev",
+            "source wr",
+            "source win revenue"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Marketing Source Validated Leads (RLM)",
+          "synonyms": [
+            "source validated leads (rlm)"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Marketing Source Validated Leads",
+          "synonyms": [
+            "marketing source validated leads created",
+            "marketing source vlc",
+            "source vlc",
+            "source validated leads",
+            "marketing source vl"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Marketing Source Validated Lead Revenue",
+          "synonyms": [
+            "source validated leads revenue created",
+            "marketing source vlrc",
+            "source vlrc",
+            "source vlr"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Marketing Source Rate % (RLM Only)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Marketing Source",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Marketing Progress",
+          "synonyms": [
+            "progress"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Marketing Create",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Marketer Workspace (MWS) Tagging Completion Rate",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Low Quality Addressable Responses",
+          "synonyms": [
+            "lq addressable",
+            "lq addressable responses"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Life of",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Job Role",
+          "synonyms": [
+            "job",
+            "role"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Indicator",
+          "synonyms": [
+            "indicators"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Impressions",
+          "synonyms": [
+            "impression"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "IBMer Registrations",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "High Value Chats",
+          "synonyms": [
+            "hv chat"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "High Value Chat Rate Target",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "High Value Chat Rate",
+          "synonyms": [
+            "high value chat rates"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "High Value Chat Pts. vs Target",
+          "synonyms": [
+            "high value chat points vs target"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "High Quality Responses",
+          "synonyms": [
+            "hq response",
+            "high quality response",
+            "hq responses"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "High Quality Response Rate",
+          "synonyms": [
+            "% hq responses",
+            "% high quality",
+            "hq response rate"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "High Quality Addressable Responses",
+          "synonyms": [
+            "high quality addressable response",
+            "hq addressable",
+            "hq addressable responses"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Hard Bounce",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Gap",
+          "synonyms": [
+            "gaps"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Expense vs. Win Revenue",
+          "synonyms": [
+            "e:wr"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Expense vs. VLRC",
+          "synonyms": [
+            "e:vlrc"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Entry %",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Engagement Rate",
+          "synonyms": [
+            "engagement rate %",
+            "percent engagement",
+            "engagement percentage",
+            "percentage of engaged visits",
+            "adjusted bounce rate",
+            "engaged visit rate",
+            "er",
+            "eng rate",
+            "engagement %"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Engaged Visits",
+          "synonyms": [
+            "page engagement",
+            "engaged visit",
+            "engagement"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Emails Delivered",
+          "synonyms": [
+            "email delivered"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Email Sends",
+          "synonyms": [
+            "emails sent",
+            "email sent"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Email Response Count",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Email Opt Out",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Email Open",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "report",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "YTD Win Influence Contribution",
+          "synonyms": [
+            "year to date win influence contribution"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "A/B Testing (Optimizely)",
+          "synonyms": [
+            "ab testing",
+            "a/b testing",
+            "Optimizely"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Active Developers",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Audience Quality",
+          "synonyms": [
+            "segment",
+            "segmentation",
+            "audience",
+            "audience insights"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Brand Health",
+          "synonyms": [
+            "health monitor",
+            "md&i"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Content Analytics",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Discovery & Engagement",
+          "synonyms": [
+            "Diagnostic Discovery & Engagement",
+            "discovery",
+            "d and e",
+            "d&e"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Email",
+          "synonyms": [
+            "Diagnostic Email",
+            "CRM"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Digital Offering Funnel",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Digital Offering Revenue",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "E2E Funnel",
+          "synonyms": [
+            "end-to-end funnel",
+            "end-to-end",
+            "etoe",
+            "e to e",
+            "e2e",
+            "funnel",
+            "end to end funnel",
+            "end to end"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Event Detail",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Event End to End",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Event Revenue",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Event ROI",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Forecast Quarter Contribution",
+          "synonyms": [
+            "NQ+1 Contribution",
+            "NQ Contribution",
+            "CQ Contribution"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Heatmaps & Visitor Tracking (Hotjar)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "IBM Digital Analytics",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Keywords (BrightEdge)",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Leads",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Live Chat Summary",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Live Chat Metrics",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Lotame",
+          "synonyms": [
+            "lotmae",
+            "lotami",
+            "lotamie",
+            "loetame",
+            "audience monitoring",
+            "loetami",
+            "lowtamay",
+            "lowtami"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Marketing Progress",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Source Quarterly Targets",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Marketing Source",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Source Targets",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Marketing Top Sheet",
+          "synonyms": [
+            "Marketing Top Sheet",
+            "marketing top sheet 2.0",
+            "Top Sheet"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Marketing Win Influence",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Paid Media",
+          "synonyms": [
+            "social ads",
+            "groupm",
+            "banners",
+            "media"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Net Promoter Score (Medallia)",
+          "synonyms": [
+            "NPS",
+            "medalia",
+            "promoter score"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Opportunity",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Orders & Billings",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Page Insights",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Response Management",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "RLM Create Funnel",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "RLM Workload Detail",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "SaaS Acceleration Funnel",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Trials",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Web Metrics",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Web Page KPIs",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Webcast E2E Detail",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Win Influence Quarterly Targets",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Win Influence Targets",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "YTD Source Contribution",
+          "synonyms": [
+            "year to date source contribution"
+          ]
+        }
+      ]
+    }
+  ],
+  "language": "en",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-07-10"
+    }
+  },
+  "description": "",
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "sing",
+      "output": {
+        "text": {
+          "values": [
+            "Are you sure?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1535921804367",
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "#sing",
+      "dialog_node": "node_4_1535922008747",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1525793257102"
+    },
+    {
+      "type": "standard",
+      "title": "tell user a joke",
+      "output": {
+        "text": {
+          "values": [
+            "Ok you asked for it...",
+            "I know some doozies.",
+            "Don't tell anyone I know these, but I have a few up my sleeve."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1535921804367",
+      "metadata": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#joke",
+      "dialog_node": "node_1_1525793257102"
+    },
+    {
+      "type": "standard",
+      "title": "Jokes",
+      "output": {
+        "text": {
+          "values": [
+            "What do you get when you cross an owl and an oyster? Pearls of Wisdom",
+            "What happens when your wife wants a pearl necklace?  You shell out a lot of money.",
+            "Why won't oysters lend money to mermaids? Because they are shellfish.",
+            "What lies at the bottom of the sea and shakes? A nervous wreck!",
+            "What do sardines call submarines? Cans full of people.",
+            "What did one oyster say to the other oyster? \"You never open up to me.\"",
+            "Algae A: “How are things?” Algae B: “Good thanks; business is blooming”",
+            "What did one ocean say to the other ocean? Nothing, they just waved. Can you sea what i did there? I'm shore you did. Why are you so salty? Don't be a beach."
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "parent": "node_1_1525793257102",
+      "metadata": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#joke",
+      "dialog_node": "node_2_1525793306696"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1537814911528",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$temp",
+      "dialog_node": "slot_7_1537814911531",
+      "previous_sibling": "node_1_1537894359450"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Ok, let's start again. What can I help you with?"
+          ]
+        }
+      },
+      "parent": "node_3_1537814911528",
+      "context": {
+        "temp": "cancel"
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "skip_all_slots"
+      },
+      "conditions": "#cancel",
+      "event_name": "generic",
+      "dialog_node": "handler_12_1537814911531",
+      "previous_sibling": "slot_7_1537814911531"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            ""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1537814911528",
+      "context": {
+        "cmsQueryIntents": "<? intents?>",
+        "cmsQueryEntities": "<? entities?>"
+      },
+      "disabled": true,
+      "metadata": {},
+      "dialog_node": "node_13_1537814911531",
+      "previous_sibling": "handler_12_1537814911531"
+    },
+    {
+      "type": "standard",
+      "title": "single match",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1537814911528",
+      "context": {
+        "checkAmbiguous": true
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_20_1537816078702"
+      },
+      "conditions": "$persistentEntities.size() < 2",
+      "dialog_node": "node_1_1537894359450",
+      "previous_sibling": "node_30_1537816351034"
+    },
+    {
+      "type": "standard",
+      "title": "Multiple matches",
+      "output": {
+        "text": {
+          "values": [
+            "Which of these are you asking about?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1537814911528",
+      "context": {
+        "test": "<? context.persistentEntities.get(0).entity ?>",
+        "responseType": "user-decision",
+        "checkAmbiguous": false,
+        "userDecisionChoices": [
+          {
+            "text": "<? $persistentEntities.get(0).entity.substring(0,1).toUpperCase() ?><? $persistentEntities.get(0).entity.substring(1,$persistentEntities.get(0).entity.length()) ?>: <? $persistentEntities.get(0).value ?>",
+            "value": {
+              "value": "<? $persistentEntities.get(0).value ?>",
+              "entity": "<? $persistentEntities.get(0).entity ?>"
+            }
+          },
+          {
+            "text": "<? $persistentEntities.get(1).entity.substring(0,1).toUpperCase() ?><? $persistentEntities.get(1).entity.substring(1,$persistentEntities.get(1).entity.length()) ?>: <? $persistentEntities.get(1).value ?>",
+            "value": {
+              "value": "<? $persistentEntities.get(1).value ?>",
+              "entity": "<? $persistentEntities.get(1).entity ?>"
+            }
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "$persistentEntities.size() > 1",
+      "dialog_node": "node_30_1537816351034"
+    },
+    {
+      "type": "standard",
+      "title": "more jokes",
+      "output": {
+        "text": {
+          "values": [
+            "All these sea jokes are just Kraken me up."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1525793306696",
+      "metadata": {},
+      "conditions": "#joke",
+      "dialog_node": "node_4_1525794822851"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_17_1525561812152",
+      "metadata": {},
+      "variable": "$followupAsked",
+      "dialog_node": "slot_22_1532446806584",
+      "previous_sibling": "handler_27_1532447881254"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Would you like to know which report(s) display information about <? context.cmsQueryEntities[0].value ?>?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_17_1525561812152",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_27_1532447881254",
+      "previous_sibling": "node_18_1525561872902"
+    },
+    {
+      "type": "standard",
+      "title": "no i don't want it",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_17_1525561812152",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_29_1532448584408"
+      },
+      "conditions": "#no",
+      "dialog_node": "node_19_1525561878746",
+      "previous_sibling": "slot_22_1532446806584"
+    },
+    {
+      "type": "standard",
+      "title": "yes i want it",
+      "output": {
+        "text": {
+          "values": [
+            "Here's what I found:"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_17_1525561812152",
+      "context": {
+        "responseType": "link-list"
+      },
+      "metadata": {},
+      "conditions": "#yes",
+      "dialog_node": "node_18_1525561872902"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_19_1532446759820",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_21_1532446759820",
+      "previous_sibling": "handler_20_1532446759820"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_19_1532446759820",
+      "metadata": {},
+      "event_name": "input",
+      "dialog_node": "handler_20_1532446759820"
+    },
+    {
+      "type": "standard",
+      "title": "Do query",
+      "output": {
+        "text": {
+          "values": [
+            "Do query"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1535921610327",
+      "actions": [
+        {
+          "name": "cmsQuery",
+          "type": "client",
+          "result_variable": "appResponse"
+        }
+      ],
+      "metadata": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "dialog_node": "node_20_1537816078702",
+      "previous_sibling": "node_3_1537814911528"
+    },
+    {
+      "type": "standard",
+      "title": "Ask if user wants report",
+      "output": {
+        "text": {
+          "values": [
+            "Would you like to know which report(s) display information about <? context.persistentEntities[0].value ?>?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1535921610327",
+      "context": {
+        "responseType": "user-decision",
+        "userDecisionChoices": [
+          {
+            "text": "Yes, I'd like that information",
+            "value": "yes"
+          },
+          {
+            "text": "No thanks",
+            "value": "no"
+          }
+        ]
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "dialog_node": "node_17_1525561812152",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_20_1537816078702"
+    },
+    {
+      "type": "frame",
+      "title": "validate and collect entity",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1535921610327",
+      "context": {
+        "temp": null,
+        "slotAttempts": 0,
+        "persistentIntents": "<? intents?>",
+        "persistentEntities": "<? entities?>"
+      },
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#define || #match_terms_to_report || #find_navigation_to_report",
+      "dialog_node": "node_3_1537814911528",
+      "digress_out": "allow_all",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "standard",
+      "title": "a report is applicable",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1535920358871",
+      "metadata": {
+        "fallback": "leave"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_17_1525561812152"
+      },
+      "conditions": "#define && !@report",
+      "dialog_node": "node_2_1532377837547",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_3_1535920649986"
+    },
+    {
+      "type": "standard",
+      "title": "send links",
+      "output": {
+        "text": {
+          "values": [
+            "You can find the report here:"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1535920358871",
+      "context": {
+        "responseType": "link-list"
+      },
+      "metadata": {},
+      "conditions": "#define && @report",
+      "dialog_node": "node_3_1535920649986"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_2_1532377837547",
+      "metadata": {},
+      "dialog_node": "slot_19_1532446759820"
+    },
+    {
+      "type": "standard",
+      "title": "User has chosen a match",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1538062242387",
+      "context": {
+        "persistentEntities": [
+          "$inputData"
+        ]
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_20_1537816078702"
+      },
+      "conditions": "true",
+      "dialog_node": "node_2_1538065475196"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1537814911531",
+      "context": {
+        "temp": "@ambiguous || @metric || @dimension || @report"
+      },
+      "metadata": {},
+      "conditions": "@ambiguous || @metric || @dimension || @report",
+      "event_name": "input",
+      "dialog_node": "handler_9_1537814911531",
+      "previous_sibling": "handler_8_1537814911531"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Ok, let's start again. How can I help you?"
+          ]
+        }
+      },
+      "parent": "slot_7_1537814911531",
+      "context": {
+        "temp": "cancel",
+        "slotAttempts": 0
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "skip_all_slots"
+      },
+      "conditions": "$slotAttempts > 1",
+      "event_name": "nomatch",
+      "dialog_node": "handler_10_1537814911531",
+      "previous_sibling": "handler_9_1537814911531"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "What term are you asking about?"
+          ]
+        }
+      },
+      "parent": "slot_7_1537814911531",
+      "context": {
+        "slotAttempts": "<? context['slotAttempts'] + 1 ?>"
+      },
+      "metadata": {},
+      "conditions": "$slotAttempts < 2",
+      "event_name": "nomatch",
+      "dialog_node": "handler_11_1537814911531",
+      "previous_sibling": "handler_10_1537814911531"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "What term are you asking about? It can be a metric, dimension or report name."
+      },
+      "parent": "slot_7_1537814911531",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_8_1537814911531"
+    },
+    {
+      "type": "standard",
+      "title": "CMS error response",
+      "output": {
+        "text": {
+          "values": [
+            "Sorry, I wasn't able to find that information for you.",
+            "Hmm, I couldn't locate that information for you.",
+            "I looked for that information but wasn't able to find it."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_20_1537816078702",
+      "metadata": {},
+      "conditions": "$appResponse.error || $appResponse.noResults",
+      "dialog_node": "node_1_1535387875991",
+      "previous_sibling": "node_2_1531946862369"
+    },
+    {
+      "type": "standard",
+      "title": "Respond with CMS data",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_20_1537816078702",
+      "metadata": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "!$appResponse.error && !$appResponse.noResults",
+      "dialog_node": "node_2_1531946862369"
+    },
+    {
+      "type": "standard",
+      "title": "send report links",
+      "output": {
+        "text": {
+          "values": [
+            "Here's what I found:"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1531946862369",
+      "context": {
+        "responseType": "link-list"
+      },
+      "metadata": {},
+      "conditions": "#match_terms_to_report || #find_navigation_to_report",
+      "dialog_node": "node_1_1535921353522",
+      "previous_sibling": "node_2_1535920358871"
+    },
+    {
+      "type": "standard",
+      "title": "send definition",
+      "output": {
+        "text": {
+          "values": [
+            "<? $persistentEntities.get(0).value ?> (<? $persistentEntities.get(0).entity.substring(0,1).toUpperCase() ?><? $persistentEntities.get(0).entity.substring(1,$persistentEntities.get(0).entity.length()) ?>): $appResponse.data.message"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1531946862369",
+      "metadata": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#define",
+      "dialog_node": "node_2_1535920358871",
+      "previous_sibling": "node_1_1538062242387"
+    },
+    {
+      "type": "standard",
+      "title": "Multiple ambiguous responses",
+      "output": {
+        "text": {
+          "values": [
+            "Which of these are you asking about?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1531946862369",
+      "context": {
+        "responseType": "user-decision",
+        "userDecisionChoices": "$appResponse.data.userDecisionChoices"
+      },
+      "metadata": {},
+      "conditions": "context['appResponse']['type'] == 'user-decision'",
+      "dialog_node": "node_1_1538062242387"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "That's for the best."
+          ]
+        }
+      },
+      "parent": "slot_5_1535922033486",
+      "metadata": {},
+      "conditions": "#no",
+      "event_name": "filled",
+      "dialog_node": "handler_11_1535922223586",
+      "previous_sibling": "handler_9_1535922125841"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1535922033486",
+      "context": {
+        "temp": "(#yes || #no)"
+      },
+      "metadata": {},
+      "conditions": "(#yes || #no)",
+      "event_name": "input",
+      "dialog_node": "handler_6_1535922033486",
+      "previous_sibling": "handler_7_1535922033486"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Ok!"
+          ]
+        }
+      },
+      "parent": "slot_5_1535922033486",
+      "metadata": {},
+      "conditions": "#yes",
+      "event_name": "filled",
+      "dialog_node": "handler_9_1535922125841",
+      "previous_sibling": "handler_6_1535922033486"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Are you sure?"
+      },
+      "parent": "slot_5_1535922033486",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_7_1535922033486"
+    },
+    {
+      "type": "standard",
+      "title": "No, don't sing",
+      "output": {
+        "text": {
+          "values": [
+            "Ok, I won't sing. It's probably for the best."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_4_1535922008747",
+      "context": {
+        "responseType": "text"
+      },
+      "metadata": {},
+      "conditions": "#no || !#yes",
+      "dialog_node": "node_5_1537211823764",
+      "previous_sibling": "node_4_1537211755669"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_4_1535922008747",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$temp",
+      "dialog_node": "slot_5_1535922033486",
+      "previous_sibling": "node_5_1537211823764"
+    },
+    {
+      "type": "standard",
+      "title": "Yes, sing",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_4_1535922008747",
+      "context": {
+        "responseType": "sing"
+      },
+      "metadata": {},
+      "conditions": "#yes",
+      "dialog_node": "node_4_1537211755669"
+    },
+    {
+      "type": "standard",
+      "title": "User has chosen a match",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_30_1537816351034",
+      "context": {
+        "persistentEntities": [
+          "$inputData"
+        ]
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_20_1537816078702"
+      },
+      "conditions": "true",
+      "dialog_node": "node_31_1537821594525"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "I can only perform one operation at a time. What would you like me to do?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1485920032937",
+      "metadata": {},
+      "conditions": " ",
+      "dialog_node": "node_2_1485920042146"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Would you like to know which report(s) display information about <? context.cmsQueryEntities[0].value ?>?"
+      },
+      "parent": "slot_22_1532446806584",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_24_1532446806584",
+      "previous_sibling": "handler_23_1532446806584"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_22_1532446806584",
+      "context": {
+        "followupAsked": "@response_types"
+      },
+      "metadata": {},
+      "conditions": "@response_types",
+      "event_name": "input",
+      "dialog_node": "handler_23_1532446806584"
+    },
+    {
+      "type": "standard",
+      "title": "capabilties",
+      "output": {
+        "text": {
+          "values": [
+            "I'm trained on topics specific to Pearl, such as dimensions, metrics and reports. For example, you can ask me to define a term or locate a report."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#capabilities",
+      "dialog_node": "node_11_1468608786372",
+      "previous_sibling": "node_3_1535921804367"
+    },
+    {
+      "type": "folder",
+      "title": "easter eggs",
+      "metadata": {},
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1535921804367",
+      "previous_sibling": "node_29_1532448584408"
+    },
+    {
+      "type": "standard",
+      "title": "greetings",
+      "output": {
+        "text": "Hello! I'm here to help you. Just let me know what you'd like help with."
+      },
+      "metadata": {},
+      "conditions": "#greetings",
+      "dialog_node": "node_7_1468608329601",
+      "previous_sibling": "node_11_1468608786372"
+    },
+    {
+      "type": "standard",
+      "title": "catch-all",
+      "output": {
+        "text": {
+          "values": [
+            "I'm not sure I understand."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_1_1533832481904",
+      "previous_sibling": "node_1_1532451563457"
+    },
+    {
+      "type": "standard",
+      "title": "about",
+      "output": {
+        "text": {
+          "values": [
+            "I see that you are asking me about myself. How flattering!",
+            "This is supposed to be a business conversation so I can claim the tax deduction.",
+            "That's personal.",
+            "We don't know each other well enough for me to answer that."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_11_1468608786372"
+      },
+      "conditions": "#about",
+      "dialog_node": "node_1_1487280858924",
+      "previous_sibling": "node_1_1487280368483"
+    },
+    {
+      "type": "standard",
+      "title": "negative reaction",
+      "output": {
+        "text": {
+          "values": [
+            "I'm sorry I haven't been able to help you."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_11_1468608786372"
+      },
+      "conditions": "#negative_reaction",
+      "dialog_node": "node_1_1487280368483",
+      "previous_sibling": "node_7_1535390146547"
+    },
+    {
+      "type": "standard",
+      "title": "advice",
+      "output": {
+        "text": {
+          "values": [
+            "The world is your oyster. It's up to you to find the pearls.",
+            "Obviously, if you don't love life, you can't enjoy an oyster.",
+            "What strikes the oyster shell, doesn't damage the pearl.",
+            "The life of a human is of no greater importance to the universe than that of an oyster.",
+            "Get action. Seize the moment. Humans were never intended to become oysters.",
+            "\"The first man gets the oyster, the second man gets the shell.\"  - Andrew Carnegie, famous steel magnate and oyster hog.",
+            "\"If that a pearl may in a toad's head dwell, And may be found too in an oyster shell.\" - John Bunyan"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "metadata": {},
+      "conditions": "#advice",
+      "dialog_node": "node_3_1525793917622",
+      "previous_sibling": "node_1_1487280858924"
+    },
+    {
+      "type": "standard",
+      "title": "Does user want anything else?",
+      "output": {
+        "text": {
+          "values": [
+            "Let me know if i can help you with anything else."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "digress_in": "does_not_return",
+      "dialog_node": "node_29_1532448584408",
+      "previous_sibling": "node_2_1535921610327"
+    },
+    {
+      "type": "standard",
+      "title": "positive reaction",
+      "output": {
+        "text": {
+          "values": [
+            "**\\0/**",
+            "I aim to please.",
+            "Nice to hear that.",
+            "Awwww go on..."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#positive_reaction",
+      "dialog_node": "node_7_1535390146547",
+      "previous_sibling": "node_7_1468608329601"
+    },
+    {
+      "type": "standard",
+      "title": "User says goodbye",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_29_1532448584408"
+      },
+      "conditions": "#goodbyes",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1532451563457",
+      "previous_sibling": "node_19_1488771326550"
+    },
+    {
+      "type": "folder",
+      "title": "cms query nodes",
+      "metadata": {},
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1535921610327",
+      "previous_sibling": "node_1_1485920032937"
+    },
+    {
+      "type": "standard",
+      "title": "compound questions",
+      "output": {},
+      "metadata": {},
+      "conditions": "#compound_questions",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1485920032937",
+      "previous_sibling": "initialize and greet"
+    },
+    {
+      "type": "standard",
+      "title": "improve system",
+      "output": {
+        "text": {
+          "values": [
+            "The more you interact with me the more I learn. That's the best way to teach me."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_11_1468608786372"
+      },
+      "conditions": "#improving_system",
+      "dialog_node": "node_19_1488771326550",
+      "previous_sibling": "node_3_1525793917622"
+    },
+    {
+      "type": "standard",
+      "title": "Initialize and Greet",
+      "output": {
+        "text": {
+          "values": [
+            "Hi, what can I help you with today?"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "context": {
+        "endChat": false,
+        "appResponse": {},
+        "responseType": "text",
+        "slotAttempts": 0,
+        "checkAmbiguous": false,
+        "persistentIntents": [],
+        "persistentEntities": [],
+        "userDecisionChoices": null
+      },
+      "metadata": {},
+      "conditions": "conversation_start",
+      "digress_in": "does_not_return",
+      "dialog_node": "initialize and greet"
+    }
+  ],
+  "workspace_id": "fe642df1-15b7-4eae-a1a0-a0c0c5efc531",
+  "counterexamples": [
+    {
+      "text": "aho"
+    },
+    {
+      "text": "asdasdasda"
+    },
+    {
+      "text": "asdasidjiwe"
+    },
+    {
+      "text": "cats are my favorite animal"
+    },
+    {
+      "text": "when will it be funny"
+    },
+    {
+      "text": "which color is best for wedding"
+    }
+  ],
+  "learning_opt_out": false
+}

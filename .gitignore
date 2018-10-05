@@ -45,6 +45,7 @@ typings/
 
 # don't commit build
 build/
+output/
 
 # OS
 .DS_Store
